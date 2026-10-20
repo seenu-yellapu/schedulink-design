@@ -195,6 +195,21 @@
       "$type": "color",
       "$description": "The green tick badge on a benefit symbol. Shapes only, always with a tick, never text.",
       "$value": "#2C9A4B"
+    },
+    "grid-line": {
+      "$type": "color",
+      "$value": "#EBEBEE",
+      "$description": "Lines of the background grid behind homepage sections (Seenu, 2026-10-20)."
+    },
+    "grid-node": {
+      "$type": "color",
+      "$value": "#B3B5B9",
+      "$description": "Dots where background grid lines meet."
+    },
+    "grid-mark": {
+      "$type": "color",
+      "$value": "#9FA1A6",
+      "$description": "Corner cross marks on section edges."
     }
   }
 }

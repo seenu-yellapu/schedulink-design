@@ -22,7 +22,7 @@ The page is flat; the product has depth ([ADR 0005](adr/0005-flat-page-product-d
 
 | Token | Use |
 |---|---|
-| `shadow-product` | Product illustrations only. Screenshot fragments have no shadow ([ADR 0011](adr/0011-fragments-without-shadow.md)). |
+| `shadow-product` | Product illustrations only. Screenshot fragments ([ADR 0011](adr/0011-fragments-without-shadow.md)) and tab pictures ([ADR 0012](adr/0012-tab-pictures-without-shadow.md)) have no shadow. |
 | `shadow-product-lift` | The front-most layer in a stacked product image |
 
 No shadows on sections, cards, buttons or panels. Structure comes from `line` hairlines.

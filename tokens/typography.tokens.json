@@ -46,6 +46,22 @@
         }
       }
     },
+    "display-sub": {
+      "$type": "typography",
+      "$description": "Second line of the homepage hero heading, lighter than the first (Seenu, 2026-10-20).",
+      "$value": {
+        "fontFamily": "{font.display}",
+        "fontSize": "40px",
+        "fontWeight": 400,
+        "lineHeight": 1.06,
+        "letterSpacing": "-0.02em"
+      },
+      "$extensions": {
+        "schedulink": {
+          "group": "Display"
+        }
+      }
+    },
     "display-l": {
       "$type": "typography",
       "$description": "Homepage section headings. Weight 600, as on every approved page (was 700, never used on a page).",
@@ -102,6 +118,22 @@
         "fontWeight": 600,
         "lineHeight": 1.2,
         "letterSpacing": "-0.02em"
+      },
+      "$extensions": {
+        "schedulink": {
+          "group": "Display"
+        }
+      }
+    },
+    "quote": {
+      "$type": "typography",
+      "$description": "Customer quotes (Seenu, 2026-10-20).",
+      "$value": {
+        "fontFamily": "{font.display}",
+        "fontSize": "22px",
+        "fontWeight": 600,
+        "lineHeight": 1.35,
+        "letterSpacing": "-0.01em"
       },
       "$extensions": {
         "schedulink": {

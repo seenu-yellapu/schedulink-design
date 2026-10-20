@@ -23,3 +23,4 @@ A carried-over ADR holds only its Status and Decision: the Context, Consequences
 | [0009](0009-brand-family-from-one-colour.md) | The brand family from one colour | Accepted (2026-10-20) |
 | [0010](0010-repo-is-the-source.md) | This repo is the source; the Claude design system is a view | Proposed (2026-10-20) |
 | [0011](0011-fragments-without-shadow.md) | Screenshot fragments have no shadow | Accepted (2026-10-20) |
+| [0012](0012-tab-pictures-without-shadow.md) | Tab pictures have no shadow | Accepted (2026-10-20) |

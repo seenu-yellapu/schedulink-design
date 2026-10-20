@@ -82,6 +82,11 @@
       "$type": "dimension",
       "$value": "24px",
       "$description": "Section cards on the grey page."
+    },
+    "radius-panel": {
+      "$type": "dimension",
+      "$value": "32px",
+      "$description": "Full-width tinted panels on the homepage (Seenu, 2026-10-20)."
     }
   }
 }

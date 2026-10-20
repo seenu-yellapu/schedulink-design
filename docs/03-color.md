@@ -91,6 +91,9 @@ ScheduLink Marketing system set it.
 | `illus-tile-line` | `#E1EBFF` | brand.4 (was `#DBE4FA`) | Border of the pale blue column-header tile in product illustrations. The tile itself is brand-soft. |
 | `symbol-line` | `#E3E3E7` | set by hand | Border of the white tile behind a benefit symbol. |
 | `confirm` | `#2C9A4B` | set by hand | The green tick badge on a benefit symbol. Shapes only, always with a tick, never text. |
+| `grid-line` | `#EBEBEE` | set by hand | Lines of the background grid behind homepage sections (Seenu, 2026-10-20). |
+| `grid-node` | `#B3B5B9` | set by hand | Dots where background grid lines meet. |
+| `grid-mark` | `#9FA1A6` | set by hand | Corner cross marks on section edges. |
 <!-- generated:roles:end -->
 
 ## Status colours
