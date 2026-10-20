@@ -66,6 +66,8 @@
 }
 .type-display-xl { font-family: var(--font-display); font-size: 68px; line-height: 1.02; font-weight: 700; letter-spacing: -0.03em; }
 .type-display-l { font-family: var(--font-display); font-size: 48px; line-height: 1.08; font-weight: 700; letter-spacing: -0.03em; }
+.type-display-m { font-family: var(--font-display); font-size: 38px; line-height: 1.1; font-weight: 600; letter-spacing: -0.03em; }
+.type-display-s { font-family: var(--font-display); font-size: 36px; line-height: 1.1; font-weight: 600; letter-spacing: -0.03em; }
 .type-heading { font-family: var(--font-display); font-size: 28px; line-height: 1.2; font-weight: 600; letter-spacing: -0.02em; }
 .type-subheading { font-family: var(--font-display); font-size: 20px; line-height: 1.3; font-weight: 600; letter-spacing: -0.01em; }
 .type-body-l { font-family: var(--font-sans); font-size: 19px; line-height: 1.6; font-weight: 400; }

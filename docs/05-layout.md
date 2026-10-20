@@ -32,6 +32,8 @@ Headings are always left-aligned under their tag; only the closing call to actio
 
 Each section fits one laptop screen at full size: about 750px tall at 1440px wide (Seenu, 2026-10-20). An FAQ shows its questions with the answers closed.
 
+The header stays at the top of the screen while the page scrolls (Seenu, 2026-10-20).
+
 ## Platform tabs
 
 One tab per part, in this order: Photoshoot management, Task tracking, Photographer scheduling, Client relationships,

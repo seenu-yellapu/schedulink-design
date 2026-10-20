@@ -17,6 +17,8 @@ Values live in `tokens/typography.tokens.json`; the build writes a `.type-<name>
 |---|---|---|---|---|
 | `display-xl` | Poppins | 68px / 1.02 / 700 | -0.03em | The hero only |
 | `display-l` | Poppins | 48px / 1.08 / 700 | -0.03em | Section headings |
+| `display-m` | Poppins | 38px / 1.1 / 600 | -0.03em | Feature page hero |
+| `display-s` | Poppins | 36px / 1.1 / 600 | -0.03em | Section headings on feature pages |
 | `heading` | Poppins | 28px / 1.2 / 600 | -0.02em | Benefit headlines, sub-sections |
 | `subheading` | Poppins | 20px / 1.3 / 600 | -0.01em | Card titles |
 | `body-l` | Inter | 19px / 1.6 / 400 | | Section intros |

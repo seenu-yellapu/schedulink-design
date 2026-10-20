@@ -60,6 +60,38 @@
         }
       }
     },
+    "display-m": {
+      "$type": "typography",
+      "$description": "Feature page hero heading (Seenu, 2026-10-20: the 52px heading was too big).",
+      "$value": {
+        "fontFamily": "{font.display}",
+        "fontSize": "38px",
+        "fontWeight": 600,
+        "lineHeight": 1.1,
+        "letterSpacing": "-0.03em"
+      },
+      "$extensions": {
+        "schedulink": {
+          "group": "Display"
+        }
+      }
+    },
+    "display-s": {
+      "$type": "typography",
+      "$description": "Section headings on feature pages, one step below the feature page hero (Seenu, 2026-10-20).",
+      "$value": {
+        "fontFamily": "{font.display}",
+        "fontSize": "36px",
+        "fontWeight": 600,
+        "lineHeight": 1.1,
+        "letterSpacing": "-0.03em"
+      },
+      "$extensions": {
+        "schedulink": {
+          "group": "Display"
+        }
+      }
+    },
     "heading": {
       "$type": "typography",
       "$value": {

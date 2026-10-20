@@ -23,6 +23,11 @@ Seenu answered the calls found while moving the system into this repo on 2026-10
 | 10 | ADR 0005 gives product illustrations `shadow-product`, but the approved homepage tab pictures have none | Tab pictures get the shadow / extend ADR 0011 to tab pictures |
 | 12 | Section padding moved from 120px (`space-9`) to 80px (`space-8`) so each section fits one laptop screen, and the platform tab picture shows at 85% on the homepage. Accept as the rule? | Accept / keep 120px |
 | 11 | The TabIllustration preview still uses hand-set blues (`#EAF0FD`, `#C9D8F6`) for the date and part tiles | Move onto the ramp / leave them |
+| 13 | New text styles for feature pages: `display-m` 38px for the hero and `display-s` 36px for section headings (Seenu, 2026-10-20). Both are weight 600, as the pages use, while `display-xl` and `display-l` stay at 700 | Accept / change sizes |
+| 14 | Feature page block titles use `heading` (28px) instead of the hand-set 30px | Accept / keep 30px |
+| 15 | Nav logo at 150px wide (about 42px tall) instead of 28px tall, to match the homepage | Accept / 28px tall |
+| 16 | The header stays at the top of the screen while scrolling, on every page | Accept / scrolls away |
+| 17 | Phones: feature page hero 32px, section headings 30px | Accept / change |
 
 ## Not built yet
 
