@@ -5,3 +5,4 @@ Finalized page designs for schedulink.io, served by GitHub Pages from this branc
 | Page | File |
 |---|---|
 | Homepage | index.html |
+| Photoshoot management | photoshoot-management/index.html (draft, awaiting sign-off) |
