@@ -32,11 +32,12 @@
   "style": {
     "display-xl": {
       "$type": "typography",
+      "$description": "Homepage hero and the switching heading. 54px, weight 600, as on the approved homepage (was 68px, 700, never used on a page).",
       "$value": {
         "fontFamily": "{font.display}",
-        "fontSize": "68px",
-        "fontWeight": 700,
-        "lineHeight": 1.02,
+        "fontSize": "54px",
+        "fontWeight": 600,
+        "lineHeight": 1.06,
         "letterSpacing": "-0.03em"
       },
       "$extensions": {
@@ -47,10 +48,11 @@
     },
     "display-l": {
       "$type": "typography",
+      "$description": "Homepage section headings. Weight 600, as on every approved page (was 700, never used on a page).",
       "$value": {
         "fontFamily": "{font.display}",
         "fontSize": "48px",
-        "fontWeight": 700,
+        "fontWeight": 600,
         "lineHeight": 1.08,
         "letterSpacing": "-0.03em"
       },

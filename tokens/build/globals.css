@@ -64,8 +64,8 @@
   --shadow-product: 0 1px 2px rgba(15, 17, 23, 0.05), 0 16px 40px rgba(15, 17, 23, 0.09);
   --shadow-product-lift: 0 2px 4px rgba(15, 17, 23, 0.08), 0 28px 56px rgba(15, 17, 23, 0.18);
 }
-.type-display-xl { font-family: var(--font-display); font-size: 68px; line-height: 1.02; font-weight: 700; letter-spacing: -0.03em; }
-.type-display-l { font-family: var(--font-display); font-size: 48px; line-height: 1.08; font-weight: 700; letter-spacing: -0.03em; }
+.type-display-xl { font-family: var(--font-display); font-size: 54px; line-height: 1.06; font-weight: 600; letter-spacing: -0.03em; }
+.type-display-l { font-family: var(--font-display); font-size: 48px; line-height: 1.08; font-weight: 600; letter-spacing: -0.03em; }
 .type-display-m { font-family: var(--font-display); font-size: 38px; line-height: 1.1; font-weight: 600; letter-spacing: -0.03em; }
 .type-display-s { font-family: var(--font-display); font-size: 36px; line-height: 1.1; font-weight: 600; letter-spacing: -0.03em; }
 .type-heading { font-family: var(--font-display); font-size: 28px; line-height: 1.2; font-weight: 600; letter-spacing: -0.02em; }

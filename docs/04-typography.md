@@ -15,8 +15,8 @@ Values live in `tokens/typography.tokens.json`; the build writes a `.type-<name>
 
 | Style | Face | Size / line / weight | Tracking | Use |
 |---|---|---|---|---|
-| `display-xl` | Poppins | 68px / 1.02 / 700 | -0.03em | The hero only |
-| `display-l` | Poppins | 48px / 1.08 / 700 | -0.03em | Section headings |
+| `display-xl` | Poppins | 54px / 1.06 / 600 | -0.03em | Homepage hero and the switching heading |
+| `display-l` | Poppins | 48px / 1.08 / 600 | -0.03em | Homepage section headings |
 | `display-m` | Poppins | 38px / 1.1 / 600 | -0.03em | Feature page hero |
 | `display-s` | Poppins | 36px / 1.1 / 600 | -0.03em | Section headings on feature pages |
 | `heading` | Poppins | 28px / 1.2 / 600 | -0.02em | Benefit headlines, sub-sections |

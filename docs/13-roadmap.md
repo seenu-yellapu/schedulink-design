@@ -28,6 +28,10 @@ Seenu answered the calls found while moving the system into this repo on 2026-10
 | 15 | Nav logo at 150px wide (about 42px tall) instead of 28px tall, to match the homepage | Accept / 28px tall |
 | 16 | The header stays at the top of the screen while scrolling, on every page | Accept / scrolls away |
 | 17 | Phones: feature page hero 32px, section headings 30px | Accept / change |
+| 18 | `display-xl` is now 54px, weight 600, line 1.06, and `display-l` weight 600: the values on the approved homepage. The old 68px and 700 were never used on a page | Accept / go back to 68px and 700 |
+| 19 | Homepage grey text (`#73767B` and `#8A8C91`) now uses `ink-muted` (`#6B6E73`), the grey that passes contrast. Slightly darker | Accept / keep the lighter greys |
+| 20 | Homepage headings snapped to the scale: benefit headings line height 1.2 (was 1.15), the part title 28px (was 30px), "Switching is on us." 54px (was 56px) | Accept / keep the hand-set values |
+| 21 | Still hand-set on the homepage, with no style in the system yet: the hero second line (40px, weight 400), quotes (22px), the 32px panel corners, and the light greys of the background grid | Add styles for them / leave as page details |
 
 ## Not built yet
 
