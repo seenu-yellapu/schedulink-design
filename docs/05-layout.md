@@ -18,11 +18,11 @@ The brand book fixes the hero, then the logo row, then the benefits. It names th
 
 | Section | Tag | Notes |
 |---|---|---|
-| Hero | none | Three-line headline ([04](04-typography.md)), the hero illustration ([08](08-imagery.md)) |
+| Hero | none | Two-line headline, `display-xl` then `display-sub` ([04](04-typography.md)), the hero illustration ([08](08-imagery.md)) |
 | Logo row | none | On the grey |
 | Benefits | none | On the grey, three columns, each a BenefitSymbol, a 28px headline, one line. Benefits only, never features. In order: admin that stays the same as the studio grows, a team that always knows its part, clients who come back every season |
 | Platform | THE PLATFORM | "One system instead of a stack of apps." Then the platform tabs |
-| Integrations | INTEGRATIONS | A 2 by 2 grid divided by thin lines; logo above name; the last cell "More on the way" |
+| Integrations | INTEGRATIONS | A 2 by 2 grid divided by thin lines; logo (56px tall on desktop, 44px on phones) above name, no description; the last cell "More on the way" |
 | Testimonials | TESTIMONIALS | On the grey |
 | Switching | SWITCHING | |
 | FAQ | FAQ | On the grey |
@@ -44,6 +44,7 @@ Email and form automation, Online booking. The footer's Platform column lists th
   words, each with a different problem word: "never scattered again", "nothing slips", "without calling around", "no
   retyping", "none sent by hand", "not chased".
 - The line under it says how it works, in plain facts the help center confirms.
+- No proof card, "Also" line or "Linked to" chips under it: the picture carries the proof.
 - A part that is not live gets a grey "Coming soon" label and a placeholder picture at the same size; when it ships it
   switches to a blue "New" label for its first months.
 - Adding a part means adding a tab; nothing else changes.

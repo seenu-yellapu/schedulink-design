@@ -31,7 +31,10 @@ Seenu answered every call on 2026-10-20.
 
 ## Calls for Seenu
 
-None open.
+| # | Question | Options |
+|---|---|---|
+| 23 | The Claude design system README is now built from `docs/` 00 to 12 instead of written by hand. Its wording changes to the docs' wording; no rule is lost | Accept / keep the hand-written one |
+| 24 | Two rules were only in the Claude README and are now in [05 Layout](05-layout.md): integration logos 56px tall on desktop and 44px on phones, and no proof card, "Also" line or "Linked to" chips under a platform tab | Accept / drop them |
 
 ## Not built yet
 

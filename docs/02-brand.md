@@ -21,7 +21,7 @@ by 512 px. There are no vector files in this repo yet ([13 Roadmap](13-roadmap.m
 
 ## Rules
 
-- Wordmark in the nav at 28px tall, with clear space of at least the height of the S on every side.
+- Wordmark in the nav at 150px wide (about 42px tall) on every page, with clear space of at least the height of the S on every side.
 - Minimum wordmark width 120px; below that, use the icon.
 - Never recolour it, never add a shadow, never put the blue wordmark on a mid-tone ground. On anything darker than
   `surface-sunken`, switch to the white file.
