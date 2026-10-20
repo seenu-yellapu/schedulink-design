@@ -56,12 +56,12 @@
     "radius-sm": {
       "$type": "dimension",
       "$value": "8px",
-      "$description": "Every button and tab. Chips and tags use 6px."
+      "$description": "Small controls inside product illustrations. Not buttons or tabs, which use radius-md. Chips and tags use 6px."
     },
     "radius-md": {
       "$type": "dimension",
       "$value": "12px",
-      "$description": "Buttons and module tabs."
+      "$description": "Every button and tab."
     },
     "radius-lg": {
       "$type": "dimension",

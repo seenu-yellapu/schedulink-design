@@ -6,7 +6,7 @@
   --surface-invert: #2F2F2F;
   --ink: #2F2F2F;
   --ink-secondary: #585A5E;
-  --ink-muted: #73767B;
+  --ink-muted: #6B6E73;
   --brand: #2A5BD7;
   --brand-strong: #1E48B5;
   --brand-soft: #EBF2FF;
@@ -25,8 +25,9 @@
   --illus-rim-line: #E6E6E9;
   --illus-header-rule: #DCDDE1;
   --illus-placeholder: #ECECF0;
-  --illus-shootcard: #F4F6FB;
-  --illus-shootcard-line: #E6EBF6;
+  --illus-shootcard: #F6F9FF;
+  --illus-shootcard-line: #E1EBFF;
+  --illus-tile-line: #E1EBFF;
   --symbol-line: #E3E3E7;
   --confirm: #2C9A4B;
   --brand-1: #FCFDFF;

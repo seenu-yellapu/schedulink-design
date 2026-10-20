@@ -116,10 +116,7 @@ const PAIRS = [
   ['on-brand', 'confirm', 3, 'white tick on the green badge'],
 ];
 // A failing pair kept from the source system is listed here with its reason; it is reported, not fixed silently.
-const KNOWN = {
-  'ink-muted/page-grey': 'Carried over from ScheduLink Marketing: captions in grey sections. Calls for Seenu: darken ink-muted or keep captions off the grey.',
-  'ink-muted/surface-sunken': 'Carried over from ScheduLink Marketing: captions on sunken bands. Same call as ink-muted/page-grey.',
-};
+const KNOWN = {};
 const report = PAIRS.map(([fg, bg, min, why]) => {
   const ratio = +contrast(colors[fg].value, colors[bg].value).toFixed(2);
   const key = `${fg}/${bg}`;

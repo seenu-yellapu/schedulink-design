@@ -2,7 +2,7 @@
 
 ## Status
 
-Proposed (2026-10-20). New with this repo; Seenu confirms or changes it in review.
+Accepted (2026-10-20). Seenu accepted the four generated values in the review of PR #1.
 
 ## Context
 

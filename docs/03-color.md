@@ -65,16 +65,16 @@ ScheduLink Marketing system set it.
 | `surface-sunken` | `#F7F7F8` | set by hand | Alternating section bands. Never two sunken bands in a row. |
 | `surface-raised` | `#FFFFFF` | set by hand | Cards and panels. On light they need a line border to read, since there are no shadows. |
 | `surface-invert` | `#2F2F2F` | set by hand | The footer, and nothing else on a page. The closing CTA stays white: two dark bands near each other makes the page bottom-heavy in a monochrome system. |
-| `ink` | `#2F2F2F` | set by hand | The house dark. Headlines and primary text. 12.6:1 on white. |
-| `ink-secondary` | `#585A5E` | set by hand | Body copy and supporting paragraphs. 7.0:1 on white. |
-| `ink-muted` | `#73767B` | set by hand | Eyebrow labels, captions, metadata. 4.8:1 on white. Never body copy. |
-| `brand` | `#2A5BD7` | brand.9 | The ScheduLink blue, from the logo. Buttons, links, active states and the mark itself. Nothing decorative. White text on it clears 5.9:1. |
-| `brand-strong` | `#1E48B5` | brand.11 (was `#1F43A8`) | Link text on light grounds and primary button hover. 8.3:1 on white. |
+| `ink` | `#2F2F2F` | set by hand | The house dark. Headlines and primary text. |
+| `ink-secondary` | `#585A5E` | set by hand | Body copy and supporting paragraphs. |
+| `ink-muted` | `#6B6E73` | set by hand | Eyebrow labels, captions, metadata. Never body copy. |
+| `brand` | `#2A5BD7` | brand.9 | The ScheduLink blue, from the logo. Buttons, links, active states and the mark itself. Nothing decorative. |
+| `brand-strong` | `#1E48B5` | brand.11 (was `#1F43A8`) | Link text on light grounds and primary button hover. |
 | `brand-soft` | `#EBF2FF` | brand.3 (was `#ECEFFA`) | Tint behind a positive status chip or an active nav item. Text on it is brand-strong. |
 | `on-brand` | `#FFFFFF` | set by hand | Text and icons on brand fills. |
 | `attention` | `#EFEFF1` | set by hand | Ground for anything that needs attention: a conflict flag, an overdue chip, a roster still outstanding. Neutral by design, with ink text and a 3px ink rule carrying the emphasis instead of a colour. |
 | `line` | `#E6E6E8` | set by hand | Hairline borders, section rules, table dividers. Structure comes from these, not from shadows. |
-| `line-strong` | `#8A8C91` | set by hand | Input and control borders, secondary button outlines, focus rings. 3:1 on white. |
+| `line-strong` | `#8A8C91` | set by hand | Input and control borders, secondary button outlines, focus rings. |
 | `page-grey` | `#F3F3F4` | set by hand | The page ground. Sections float on it as white cards. |
 | `status-overdue-bg` | `#FDE8E8` | set by hand | Overdue status pill background. |
 | `status-overdue-text` | `#B42318` | set by hand | Overdue status pill text. |
@@ -86,10 +86,11 @@ ScheduLink Marketing system set it.
 | `illus-rim-line` | `#E6E6E9` | set by hand | Border of the soft rim. |
 | `illus-header-rule` | `#DCDDE1` | set by hand | Line under column headers in product illustrations. |
 | `illus-placeholder` | `#ECECF0` | set by hand | Placeholder lines and pills in simplified rows. |
-| `illus-shootcard` | `#F4F6FB` | set by hand | Shoot card background in the Photographers column. |
-| `illus-shootcard-line` | `#E6EBF6` | set by hand | Shoot card border. |
+| `illus-shootcard` | `#F6F9FF` | brand.2 (was `#F4F6FB`) | Shoot card background in the Photographers column. |
+| `illus-shootcard-line` | `#E1EBFF` | brand.4 (was `#E6EBF6`) | Shoot card border. |
+| `illus-tile-line` | `#E1EBFF` | brand.4 (was `#DBE4FA`) | Border of the pale blue column-header tile in product illustrations. The tile itself is brand-soft. |
 | `symbol-line` | `#E3E3E7` | set by hand | Border of the white tile behind a benefit symbol. |
-| `confirm` | `#2C9A4B` | set by hand | The green tick badge on a benefit symbol. Shapes only, always with a tick, never text. White on it is 3.4:1, fine for an icon. |
+| `confirm` | `#2C9A4B` | set by hand | The green tick badge on a benefit symbol. Shapes only, always with a tick, never text. |
 <!-- generated:roles:end -->
 
 ## Status colours
@@ -113,9 +114,9 @@ ground, brand text 7:1, control borders, icons and badge shapes 3:1.
 | `ink-secondary` | `surface` | 6.91:1 | 4.5:1 | Pass |
 | `ink-secondary` | `page-grey` | 6.23:1 | 4.5:1 | Pass |
 | `ink-secondary` | `surface-sunken` | 6.45:1 | 4.5:1 | Pass |
-| `ink-muted` | `surface` | 4.56:1 | 4.5:1 | Pass |
-| `ink-muted` | `surface-sunken` | 4.26:1 | 4.5:1 | Known failure, see below |
-| `ink-muted` | `page-grey` | 4.11:1 | 4.5:1 | Known failure, see below |
+| `ink-muted` | `surface` | 5.12:1 | 4.5:1 | Pass |
+| `ink-muted` | `surface-sunken` | 4.78:1 | 4.5:1 | Pass |
+| `ink-muted` | `page-grey` | 4.62:1 | 4.5:1 | Pass |
 | `brand` | `surface` | 5.87:1 | 4.5:1 | Pass |
 | `brand` | `page-grey` | 5.30:1 | 4.5:1 | Pass |
 | `on-brand` | `brand` | 5.87:1 | 4.5:1 | Pass |
@@ -131,6 +132,5 @@ ground, brand text 7:1, control borders, icons and badge shapes 3:1.
 | `confirm` | `surface` | 3.60:1 | 3:1 | Pass |
 | `on-brand` | `confirm` | 3.60:1 | 3:1 | Pass |
 
-- `ink-muted/page-grey`: Carried over from ScheduLink Marketing: captions in grey sections. Calls for Seenu: darken ink-muted or keep captions off the grey.
-- `ink-muted/surface-sunken`: Carried over from ScheduLink Marketing: captions on sunken bands. Same call as ink-muted/page-grey.
+
 <!-- generated:contrast:end -->

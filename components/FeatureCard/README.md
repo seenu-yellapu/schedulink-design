@@ -1,6 +1,6 @@
 # FeatureCard
 
-The card used for the three value props and for each module in the "How studios run with Schedulink" grid.
+The card used for the three value props and for each part in the "How studios run with ScheduLink" grid.
 
 Guidelines:
 

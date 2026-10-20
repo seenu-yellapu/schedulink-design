@@ -8,7 +8,7 @@ Status values:
 - `Accepted (YYYY-MM-DD)`: Seenu confirmed it. `Accepted (carried over)` marks a decision made in the ScheduLink Marketing design system before this repo.
 - `Superseded by NNNN`: replaced; kept for history.
 
-In a carried-over ADR only the Decision section is carried over. Its Context, Consequences, Alternatives and Revisit when lines were written for this repo on 2026-10-20 and are Proposed until Seenu reviews them.
+A carried-over ADR holds only its Status and Decision: the Context, Consequences, Alternatives and Revisit-when lines written for this repo were cut (Seenu, 2026-10-20), since the original authors did not write them.
 
 | # | Decision | Status |
 |---|---|---|
@@ -20,5 +20,6 @@ In a carried-over ADR only the Decision section is carried over. Its Context, Co
 | [0006](0006-product-visuals.md) | Product visuals: illustrations and fragments, fictional data | Accepted (carried over) |
 | [0007](0007-aa-contrast-enforced.md) | WCAG AA contrast, checked by the build | Proposed (2026-10-20) |
 | [0008](0008-tokens-as-source.md) | Tokens as files, outputs generated | Proposed (2026-10-20) |
-| [0009](0009-brand-family-from-one-colour.md) | The brand family from one colour | Proposed (2026-10-20) |
+| [0009](0009-brand-family-from-one-colour.md) | The brand family from one colour | Accepted (2026-10-20) |
 | [0010](0010-repo-is-the-source.md) | This repo is the source; the Claude design system is a view | Proposed (2026-10-20) |
+| [0011](0011-fragments-without-shadow.md) | Screenshot fragments have no shadow | Accepted (2026-10-20) |

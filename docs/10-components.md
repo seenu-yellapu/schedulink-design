@@ -20,5 +20,4 @@ Previews are fragments: no `<html>` or `<head>`. They rely on `tokens/build/glob
 being loaded around them, which the specimen and the Claude design system both do. A preview refers to repo files by
 relative path (`../../brand/logo/wordmark-blue.png`).
 
-**Carried over as written:** some guidelines still say "module", which [11 Content](11-content.md) replaces with
-"part" on the site. The words are the original authors'; changing them is a call for Seenu.
+Guidelines say "part", never "module", as [11 Content](11-content.md) asks (Seenu, 2026-10-20).

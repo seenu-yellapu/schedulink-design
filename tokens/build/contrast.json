@@ -1,7 +1,7 @@
 {
   "total": 24,
   "failed": 0,
-  "known": 2,
+  "known": 0,
   "pairs": [
     {
       "fg": "ink",
@@ -77,7 +77,7 @@
       "fg": "ink-muted",
       "bg": "surface",
       "min": 4.5,
-      "ratio": 4.56,
+      "ratio": 5.12,
       "pass": true,
       "known": false,
       "why": "eyebrows, captions",
@@ -87,21 +87,21 @@
       "fg": "ink-muted",
       "bg": "surface-sunken",
       "min": 4.5,
-      "ratio": 4.26,
-      "pass": false,
-      "known": true,
+      "ratio": 4.78,
+      "pass": true,
+      "known": false,
       "why": "captions on sunken bands",
-      "note": "Carried over from ScheduLink Marketing: captions on sunken bands. Same call as ink-muted/page-grey."
+      "note": null
     },
     {
       "fg": "ink-muted",
       "bg": "page-grey",
       "min": 4.5,
-      "ratio": 4.11,
-      "pass": false,
-      "known": true,
+      "ratio": 4.62,
+      "pass": true,
+      "known": false,
       "why": "captions in sections on the grey",
-      "note": "Carried over from ScheduLink Marketing: captions in grey sections. Calls for Seenu: darken ink-muted or keep captions off the grey."
+      "note": null
     },
     {
       "fg": "brand",

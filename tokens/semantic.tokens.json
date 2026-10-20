@@ -1,5 +1,5 @@
 {
-  "$description": "Color roles of the ScheduLink marketing site. Components use these names, never palette steps. Brand roles alias the generated brand ramp (ADR 0009); every other value is set by hand. Light only (ADR 0003).",
+  "$description": "Color roles of the ScheduLink marketing site. Components use these names, never palette steps. Brand roles and the blue illustration tints alias the generated brand ramp (ADR 0009); every other value is set by hand. Light only (ADR 0003).",
   "color": {
     "surface": {
       "$type": "color",
@@ -23,22 +23,27 @@
     },
     "ink": {
       "$type": "color",
-      "$description": "The house dark. Headlines and primary text. 12.6:1 on white.",
+      "$description": "The house dark. Headlines and primary text.",
       "$value": "#2F2F2F"
     },
     "ink-secondary": {
       "$type": "color",
-      "$description": "Body copy and supporting paragraphs. 7.0:1 on white.",
+      "$description": "Body copy and supporting paragraphs.",
       "$value": "#585A5E"
     },
     "ink-muted": {
       "$type": "color",
-      "$description": "Eyebrow labels, captions, metadata. 4.8:1 on white. Never body copy.",
-      "$value": "#73767B"
+      "$description": "Eyebrow labels, captions, metadata. Never body copy.",
+      "$value": "#6B6E73",
+      "$extensions": {
+        "schedulink": {
+          "was": "#73767B"
+        }
+      }
     },
     "brand": {
       "$type": "color",
-      "$description": "The ScheduLink blue, from the logo. Buttons, links, active states and the mark itself. Nothing decorative. White text on it clears 5.9:1.",
+      "$description": "The ScheduLink blue, from the logo. Buttons, links, active states and the mark itself. Nothing decorative.",
       "$value": "{palette.brand.9}",
       "$extensions": {
         "schedulink": {
@@ -48,7 +53,7 @@
     },
     "brand-strong": {
       "$type": "color",
-      "$description": "Link text on light grounds and primary button hover. 8.3:1 on white.",
+      "$description": "Link text on light grounds and primary button hover.",
       "$value": "{palette.brand.11}",
       "$extensions": {
         "schedulink": {
@@ -83,7 +88,7 @@
     },
     "line-strong": {
       "$type": "color",
-      "$description": "Input and control borders, secondary button outlines, focus rings. 3:1 on white.",
+      "$description": "Input and control borders, secondary button outlines, focus rings.",
       "$value": "#8A8C91"
     },
     "page-grey": {
@@ -154,12 +159,32 @@
     "illus-shootcard": {
       "$type": "color",
       "$description": "Shoot card background in the Photographers column.",
-      "$value": "#F4F6FB"
+      "$value": "{palette.brand.2}",
+      "$extensions": {
+        "schedulink": {
+          "was": "#F4F6FB"
+        }
+      }
     },
     "illus-shootcard-line": {
       "$type": "color",
       "$description": "Shoot card border.",
-      "$value": "#E6EBF6"
+      "$value": "{palette.brand.4}",
+      "$extensions": {
+        "schedulink": {
+          "was": "#E6EBF6"
+        }
+      }
+    },
+    "illus-tile-line": {
+      "$type": "color",
+      "$description": "Border of the pale blue column-header tile in product illustrations. The tile itself is brand-soft.",
+      "$value": "{palette.brand.4}",
+      "$extensions": {
+        "schedulink": {
+          "was": "#DBE4FA"
+        }
+      }
     },
     "symbol-line": {
       "$type": "color",
@@ -168,7 +193,7 @@
     },
     "confirm": {
       "$type": "color",
-      "$description": "The green tick badge on a benefit symbol. Shapes only, always with a tick, never text. White on it is 3.4:1, fine for an icon.",
+      "$description": "The green tick badge on a benefit symbol. Shapes only, always with a tick, never text.",
       "$value": "#2C9A4B"
     }
   }

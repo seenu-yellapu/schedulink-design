@@ -23,14 +23,11 @@ sections. Each must show the linked pieces on screen, such as a photoshoot with 
 Screenshots appear as fragments, not full app windows ([ScreenshotFrame](../components/ScreenshotFrame/README.md)).
 
 - Crop to the one thing the section claims. If it needs a caption to be understood, the crop is too wide.
-- No browser chrome. A 1px `line` border, `radius-lg` and `shadow-product`, bleeding off one edge of its container.
+- No browser chrome and no shadow. A 1px `line` border and `radius-lg`, bleeding off one edge of its container ([ADR 0011](adr/0011-fragments-without-shadow.md)).
 - One fragment per section. Light theme only, captured at 2x, rendered at half size.
 - Never recoloured to match the site; they are the only place with more colour.
 - Keep one demo account and one fake season across every capture.
 - Never real client or student data, and never blurred real data.
-
-**A conflict carried over from the source system:** the brand book gives fragments `shadow-product`; the
-ScreenshotFrame guidelines say no shadow. The answer is a call for Seenu ([13 Roadmap](13-roadmap.md)).
 
 ## Motion in product images
 

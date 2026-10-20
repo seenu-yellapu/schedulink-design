@@ -14,6 +14,5 @@ WCAG 2.2 AA, with brand text held to 7:1 ([ADR 0007](adr/0007-aa-contrast-enforc
 
 ## Known failures
 
-Two pairs carried over from the source system fail AA and are reported by the build rather than fixed silently:
-`ink-muted` on `page-grey` (4.11:1) and on `surface-sunken` (4.26:1). Captions and eyebrows in `ink-muted` should stay
-on white until this is decided ([13 Roadmap](13-roadmap.md)).
+None. `ink-muted` was darkened from `#73767B` to `#6B6E73` (Seenu, 2026-10-20) so captions pass AA on `page-grey` and
+`surface-sunken` as well as on white. A new failure needs Seenu's decision before it is listed.
