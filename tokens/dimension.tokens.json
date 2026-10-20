@@ -1,0 +1,87 @@
+{
+  "$description": "Spacing and corner radii.",
+  "space": {
+    "space-1": {
+      "$type": "dimension",
+      "$value": "4px",
+      "$description": "Gap between a marker dot and its label."
+    },
+    "space-2": {
+      "$type": "dimension",
+      "$value": "8px",
+      "$description": "Inside chips and between stacked list items."
+    },
+    "space-3": {
+      "$type": "dimension",
+      "$value": "12px",
+      "$description": "Button padding, gap between a heading and its eyebrow."
+    },
+    "space-4": {
+      "$type": "dimension",
+      "$value": "16px",
+      "$description": "Gap between a heading and its paragraph."
+    },
+    "space-5": {
+      "$type": "dimension",
+      "$value": "24px",
+      "$description": "Card padding and grid gutters on mobile."
+    },
+    "space-6": {
+      "$type": "dimension",
+      "$value": "32px",
+      "$description": "Card padding on desktop, gap between cards."
+    },
+    "space-7": {
+      "$type": "dimension",
+      "$value": "48px",
+      "$description": "Gap between a section header and its content."
+    },
+    "space-8": {
+      "$type": "dimension",
+      "$value": "80px",
+      "$description": "Section padding on mobile, page side margin on desktop."
+    },
+    "space-9": {
+      "$type": "dimension",
+      "$value": "120px",
+      "$description": "Section padding on desktop. This spacing is what makes the page feel calm."
+    }
+  },
+  "radius": {
+    "radius-xs": {
+      "$type": "dimension",
+      "$value": "4px",
+      "$description": "Marker dots and tiny UI squares."
+    },
+    "radius-sm": {
+      "$type": "dimension",
+      "$value": "8px",
+      "$description": "Every button and tab. Chips and tags use 6px."
+    },
+    "radius-md": {
+      "$type": "dimension",
+      "$value": "12px",
+      "$description": "Buttons and module tabs."
+    },
+    "radius-lg": {
+      "$type": "dimension",
+      "$value": "16px",
+      "$description": "Cards and panels."
+    },
+    "radius-xl": {
+      "$type": "dimension",
+      "$value": "24px",
+      "$description": "Screenshot frames and large feature blocks."
+    },
+    "radius-pill": {
+      "$type": "dimension",
+      "$value": "999px",
+      "$description": "Avatars and status dots only. Not buttons or tabs."
+    },
+    "radius-card": {
+      "$type": "dimension",
+      "$value": "24px",
+      "$description": "Section cards on the grey page."
+    }
+  }
+}

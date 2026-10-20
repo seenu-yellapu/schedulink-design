@@ -1,0 +1,38 @@
+# 04. Typography
+
+Three faces, each with one job ([ADR 0004](adr/0004-three-faces.md)). All three load from Google Fonts; there are no font
+files in this repo.
+
+| Role | Face | Why |
+|---|---|---|
+| Headlines and UI labels | Poppins | Matches the letterforms of the wordmark |
+| Body copy | Inter | Poppins gets tiring in long paragraphs at small sizes |
+| Eyebrows and captions | IBM Plex Mono | Uppercase with wide tracking for section tags |
+
+## The scale
+
+Values live in `tokens/typography.tokens.json`; the build writes a `.type-<name>` class for each.
+
+| Style | Face | Size / line / weight | Tracking | Use |
+|---|---|---|---|---|
+| `display-xl` | Poppins | 68px / 1.02 / 700 | -0.03em | The hero only |
+| `display-l` | Poppins | 48px / 1.08 / 700 | -0.03em | Section headings |
+| `heading` | Poppins | 28px / 1.2 / 600 | -0.02em | Benefit headlines, sub-sections |
+| `subheading` | Poppins | 20px / 1.3 / 600 | -0.01em | Card titles |
+| `body-l` | Inter | 19px / 1.6 / 400 | | Section intros |
+| `body` | Inter | 17px / 1.6 / 400 | | Running text |
+| `body-s` | Inter | 15px / 1.55 / 400 | | Card bodies |
+| `ui` | Inter | 15px / 1.2 / 600 | | Buttons and labels |
+| `eyebrow` | IBM Plex Mono | 12px / 1.4 / 500, uppercase | 0.14em | Section tags |
+| `caption` | IBM Plex Mono | 13px / 1.45 / 400 | | Captions under fragments |
+
+## Rules
+
+- Body copy tops out around 68 characters a line.
+- Headlines break at meaningful points, not wherever the box ends.
+- With no accent colour in play, size and weight are the main tools for hierarchy: use the full range of the scale.
+- Headlines are tight: -0.03em on display styles.
+- The hero headline splits its weight across three lines: "Studio Management" (never wraps) and "Software" in Poppins
+  600 `ink` at 62px, then "for Volume Photography" (never wraps) in Poppins 400 `ink-secondary` at 46px. On narrower
+  screens the whole headline scales down rather than wrapping. These two sizes are not in the scale yet
+  ([13 Roadmap](13-roadmap.md)).

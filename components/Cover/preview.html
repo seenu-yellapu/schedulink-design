@@ -1,0 +1,43 @@
+<!-- @dsCard height=300 -->
+<div class="cover">
+  <!--
+    Blocks: ink 140x228, brand 180x140, confirm 180x72, accent 92x92; sides are multiples of space-4 (16px), corners radius-xl (24px).
+    Arrangement: one tall ink slab with a stacked pair beside it and a small accent satellite, bleeding to the right edge, so the picture reads as a week of scheduled blocks rather than a swatch row.
+    Pattern: pills, because the README calls the site friendly and fresh with large radii, and a published schedule in the product is a stack of rounded cells; three pills at radius-pill echo those cells.
+    Scales: gaps of space-4 and space-5, block corners radius-xl, pill corners radius-pill.
+  -->
+  <svg viewBox="0 0 960 300" width="960" height="300" role="img" aria-label="Schedulink design system cover">
+    <rect class="ink" x="480" y="36" width="140" height="228" rx="24"/>
+    <rect class="brand" x="636" y="36" width="180" height="140" rx="24"/>
+    <rect class="confirm" x="636" y="192" width="180" height="72" rx="24"/>
+    <rect class="accent" x="832" y="36" width="92" height="92" rx="24"/>
+    <rect class="brand" x="832" y="144" width="92" height="24" rx="12"/>
+    <rect class="accent" x="832" y="184" width="92" height="24" rx="12"/>
+    <rect class="ink" x="832" y="224" width="92" height="24" rx="12"/>
+  </svg>
+  <div class="text">
+    <h1>Schedulink</h1>
+    <p>Studio management software for volume photography.</p>
+  </div>
+</div>
+<style>
+  body { margin: 0; background: var(--surface); }
+  .cover { position: relative; width: 960px; height: 300px; background: var(--surface); }
+  svg { position: absolute; inset: 0; }
+  .ink { fill: var(--ink); }
+  .brand { fill: var(--brand); }
+  .confirm { fill: var(--line-strong); }
+  .accent { fill: var(--ink); }
+  .text { position: absolute; left: 64px; bottom: 44px; width: 440px; }
+  h1 {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 72px; line-height: 0.95; font-weight: 600; letter-spacing: -0.025em;
+    color: var(--ink);
+  }
+  p {
+    margin: 12px 0 0;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 13px; line-height: 1.45; color: var(--ink-muted);
+  }
+</style>

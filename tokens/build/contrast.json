@@ -1,0 +1,247 @@
+{
+  "total": 24,
+  "failed": 0,
+  "known": 2,
+  "pairs": [
+    {
+      "fg": "ink",
+      "bg": "surface",
+      "min": 4.5,
+      "ratio": 13.39,
+      "pass": true,
+      "known": false,
+      "why": "headlines and text",
+      "note": null
+    },
+    {
+      "fg": "ink",
+      "bg": "page-grey",
+      "min": 4.5,
+      "ratio": 12.07,
+      "pass": true,
+      "known": false,
+      "why": "text in sections on the grey",
+      "note": null
+    },
+    {
+      "fg": "ink",
+      "bg": "surface-sunken",
+      "min": 4.5,
+      "ratio": 12.51,
+      "pass": true,
+      "known": false,
+      "why": "text on sunken bands",
+      "note": null
+    },
+    {
+      "fg": "ink",
+      "bg": "attention",
+      "min": 4.5,
+      "ratio": 11.66,
+      "pass": true,
+      "known": false,
+      "why": "attention panels",
+      "note": null
+    },
+    {
+      "fg": "ink-secondary",
+      "bg": "surface",
+      "min": 4.5,
+      "ratio": 6.91,
+      "pass": true,
+      "known": false,
+      "why": "body copy",
+      "note": null
+    },
+    {
+      "fg": "ink-secondary",
+      "bg": "page-grey",
+      "min": 4.5,
+      "ratio": 6.23,
+      "pass": true,
+      "known": false,
+      "why": "body copy on the grey",
+      "note": null
+    },
+    {
+      "fg": "ink-secondary",
+      "bg": "surface-sunken",
+      "min": 4.5,
+      "ratio": 6.45,
+      "pass": true,
+      "known": false,
+      "why": "body copy on sunken bands",
+      "note": null
+    },
+    {
+      "fg": "ink-muted",
+      "bg": "surface",
+      "min": 4.5,
+      "ratio": 4.56,
+      "pass": true,
+      "known": false,
+      "why": "eyebrows, captions",
+      "note": null
+    },
+    {
+      "fg": "ink-muted",
+      "bg": "surface-sunken",
+      "min": 4.5,
+      "ratio": 4.26,
+      "pass": false,
+      "known": true,
+      "why": "captions on sunken bands",
+      "note": "Carried over from ScheduLink Marketing: captions on sunken bands. Same call as ink-muted/page-grey."
+    },
+    {
+      "fg": "ink-muted",
+      "bg": "page-grey",
+      "min": 4.5,
+      "ratio": 4.11,
+      "pass": false,
+      "known": true,
+      "why": "captions in sections on the grey",
+      "note": "Carried over from ScheduLink Marketing: captions in grey sections. Calls for Seenu: darken ink-muted or keep captions off the grey."
+    },
+    {
+      "fg": "brand",
+      "bg": "surface",
+      "min": 4.5,
+      "ratio": 5.87,
+      "pass": true,
+      "known": false,
+      "why": "section tags and the selected tab (12px text)",
+      "note": null
+    },
+    {
+      "fg": "brand",
+      "bg": "page-grey",
+      "min": 4.5,
+      "ratio": 5.3,
+      "pass": true,
+      "known": false,
+      "why": "section tags on the grey",
+      "note": null
+    },
+    {
+      "fg": "on-brand",
+      "bg": "brand",
+      "min": 4.5,
+      "ratio": 5.87,
+      "pass": true,
+      "known": false,
+      "why": "primary button label",
+      "note": null
+    },
+    {
+      "fg": "on-brand",
+      "bg": "brand-strong",
+      "min": 4.5,
+      "ratio": 7.93,
+      "pass": true,
+      "known": false,
+      "why": "primary button label on hover",
+      "note": null
+    },
+    {
+      "fg": "brand-strong",
+      "bg": "surface",
+      "min": 7,
+      "ratio": 7.93,
+      "pass": true,
+      "known": false,
+      "why": "links",
+      "note": null
+    },
+    {
+      "fg": "brand-strong",
+      "bg": "page-grey",
+      "min": 7,
+      "ratio": 7.15,
+      "pass": true,
+      "known": false,
+      "why": "links on the grey",
+      "note": null
+    },
+    {
+      "fg": "brand-strong",
+      "bg": "brand-soft",
+      "min": 7,
+      "ratio": 7.05,
+      "pass": true,
+      "known": false,
+      "why": "text on the brand tint",
+      "note": null
+    },
+    {
+      "fg": "status-overdue-text",
+      "bg": "status-overdue-bg",
+      "min": 4.5,
+      "ratio": 5.6,
+      "pass": true,
+      "known": false,
+      "why": "overdue pill",
+      "note": null
+    },
+    {
+      "fg": "status-today-text",
+      "bg": "status-today-bg",
+      "min": 4.5,
+      "ratio": 5.91,
+      "pass": true,
+      "known": false,
+      "why": "due-today pill",
+      "note": null
+    },
+    {
+      "fg": "status-later-text",
+      "bg": "status-later-bg",
+      "min": 4.5,
+      "ratio": 7.05,
+      "pass": true,
+      "known": false,
+      "why": "due-later pill",
+      "note": null
+    },
+    {
+      "fg": "on-brand",
+      "bg": "surface-invert",
+      "min": 4.5,
+      "ratio": 13.39,
+      "pass": true,
+      "known": false,
+      "why": "footer text",
+      "note": null
+    },
+    {
+      "fg": "line-strong",
+      "bg": "surface",
+      "min": 3,
+      "ratio": 3.36,
+      "pass": true,
+      "known": false,
+      "why": "control borders and focus rings",
+      "note": null
+    },
+    {
+      "fg": "confirm",
+      "bg": "surface",
+      "min": 3,
+      "ratio": 3.6,
+      "pass": true,
+      "known": false,
+      "why": "tick badge as a shape",
+      "note": null
+    },
+    {
+      "fg": "on-brand",
+      "bg": "confirm",
+      "min": 3,
+      "ratio": 3.6,
+      "pass": true,
+      "known": false,
+      "why": "white tick on the green badge",
+      "note": null
+    }
+  ]
+}

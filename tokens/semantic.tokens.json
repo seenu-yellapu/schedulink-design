@@ -1,0 +1,175 @@
+{
+  "$description": "Color roles of the ScheduLink marketing site. Components use these names, never palette steps. Brand roles alias the generated brand ramp (ADR 0009); every other value is set by hand. Light only (ADR 0003).",
+  "color": {
+    "surface": {
+      "$type": "color",
+      "$description": "Default page background. Most of the site sits on this.",
+      "$value": "#FFFFFF"
+    },
+    "surface-sunken": {
+      "$type": "color",
+      "$description": "Alternating section bands. Never two sunken bands in a row.",
+      "$value": "#F7F7F8"
+    },
+    "surface-raised": {
+      "$type": "color",
+      "$description": "Cards and panels. On light they need a line border to read, since there are no shadows.",
+      "$value": "#FFFFFF"
+    },
+    "surface-invert": {
+      "$type": "color",
+      "$description": "The footer, and nothing else on a page. The closing CTA stays white: two dark bands near each other makes the page bottom-heavy in a monochrome system.",
+      "$value": "#2F2F2F"
+    },
+    "ink": {
+      "$type": "color",
+      "$description": "The house dark. Headlines and primary text. 12.6:1 on white.",
+      "$value": "#2F2F2F"
+    },
+    "ink-secondary": {
+      "$type": "color",
+      "$description": "Body copy and supporting paragraphs. 7.0:1 on white.",
+      "$value": "#585A5E"
+    },
+    "ink-muted": {
+      "$type": "color",
+      "$description": "Eyebrow labels, captions, metadata. 4.8:1 on white. Never body copy.",
+      "$value": "#73767B"
+    },
+    "brand": {
+      "$type": "color",
+      "$description": "The ScheduLink blue, from the logo. Buttons, links, active states and the mark itself. Nothing decorative. White text on it clears 5.9:1.",
+      "$value": "{palette.brand.9}",
+      "$extensions": {
+        "schedulink": {
+          "was": "#2A5BD7"
+        }
+      }
+    },
+    "brand-strong": {
+      "$type": "color",
+      "$description": "Link text on light grounds and primary button hover. 8.3:1 on white.",
+      "$value": "{palette.brand.11}",
+      "$extensions": {
+        "schedulink": {
+          "was": "#1F43A8"
+        }
+      }
+    },
+    "brand-soft": {
+      "$type": "color",
+      "$description": "Tint behind a positive status chip or an active nav item. Text on it is brand-strong.",
+      "$value": "{palette.brand.3}",
+      "$extensions": {
+        "schedulink": {
+          "was": "#ECEFFA"
+        }
+      }
+    },
+    "on-brand": {
+      "$type": "color",
+      "$description": "Text and icons on brand fills.",
+      "$value": "#FFFFFF"
+    },
+    "attention": {
+      "$type": "color",
+      "$description": "Ground for anything that needs attention: a conflict flag, an overdue chip, a roster still outstanding. Neutral by design, with ink text and a 3px ink rule carrying the emphasis instead of a colour.",
+      "$value": "#EFEFF1"
+    },
+    "line": {
+      "$type": "color",
+      "$description": "Hairline borders, section rules, table dividers. Structure comes from these, not from shadows.",
+      "$value": "#E6E6E8"
+    },
+    "line-strong": {
+      "$type": "color",
+      "$description": "Input and control borders, secondary button outlines, focus rings. 3:1 on white.",
+      "$value": "#8A8C91"
+    },
+    "page-grey": {
+      "$type": "color",
+      "$description": "The page ground. Sections float on it as white cards.",
+      "$value": "#F3F3F4"
+    },
+    "status-overdue-bg": {
+      "$type": "color",
+      "$description": "Overdue status pill background.",
+      "$value": "#FDE8E8"
+    },
+    "status-overdue-text": {
+      "$type": "color",
+      "$description": "Overdue status pill text.",
+      "$value": "#B42318"
+    },
+    "status-today-bg": {
+      "$type": "color",
+      "$description": "Due-today status pill background. Purple is used for due-today only.",
+      "$value": "#F2ECFC"
+    },
+    "status-today-text": {
+      "$type": "color",
+      "$description": "Due-today status pill text.",
+      "$value": "#6A3FBF"
+    },
+    "status-later-bg": {
+      "$type": "color",
+      "$description": "Due-later status pill background.",
+      "$value": "{palette.brand.3}",
+      "$extensions": {
+        "schedulink": {
+          "was": "#EEF2FC"
+        }
+      }
+    },
+    "status-later-text": {
+      "$type": "color",
+      "$description": "Due-later status pill text.",
+      "$value": "{palette.brand.11}",
+      "$extensions": {
+        "schedulink": {
+          "was": "#1F43A8"
+        }
+      }
+    },
+    "illus-rim": {
+      "$type": "color",
+      "$description": "Soft rim around product illustrations.",
+      "$value": "#F3F3F5"
+    },
+    "illus-rim-line": {
+      "$type": "color",
+      "$description": "Border of the soft rim.",
+      "$value": "#E6E6E9"
+    },
+    "illus-header-rule": {
+      "$type": "color",
+      "$description": "Line under column headers in product illustrations.",
+      "$value": "#DCDDE1"
+    },
+    "illus-placeholder": {
+      "$type": "color",
+      "$description": "Placeholder lines and pills in simplified rows.",
+      "$value": "#ECECF0"
+    },
+    "illus-shootcard": {
+      "$type": "color",
+      "$description": "Shoot card background in the Photographers column.",
+      "$value": "#F4F6FB"
+    },
+    "illus-shootcard-line": {
+      "$type": "color",
+      "$description": "Shoot card border.",
+      "$value": "#E6EBF6"
+    },
+    "symbol-line": {
+      "$type": "color",
+      "$description": "Border of the white tile behind a benefit symbol.",
+      "$value": "#E3E3E7"
+    },
+    "confirm": {
+      "$type": "color",
+      "$description": "The green tick badge on a benefit symbol. Shapes only, always with a tick, never text. White on it is 3.4:1, fine for an icon.",
+      "$value": "#2C9A4B"
+    }
+  }
+}

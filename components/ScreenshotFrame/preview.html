@@ -1,0 +1,33 @@
+<!-- @dsCard group="Content" height=320 -->
+<section class="band">
+  <figure class="shot">
+    <div class="frag" aria-hidden="true">
+      <div class="row head"><b>Week of 14 September</b><span class="tag blue">Published</span></div>
+      <div class="row"><span class="who">A. Nowak</span><span class="cell">Maple Ridge Elementary</span><span class="tag blue">Accepted</span></div>
+      <div class="row"><span class="who">J. Ferreira</span><span class="cell">Northside Middle</span><span class="tag grey">Pending</span></div>
+      <div class="row flagrow"><i></i><span>P. Bhatt is already booked on 16 Sept</span></div>
+    </div>
+    <figcaption>Publishing a week of assignments. Demo data.</figcaption>
+  </figure>
+</section>
+<style>
+  body { margin: 0; padding: 0; font-family: "Inter", sans-serif; }
+  .band { background: var(--surface-sunken); padding: var(--space-7) 0 var(--space-7) var(--space-7); }
+  .shot { margin: 0; }
+  .frag {
+    background: var(--surface-raised); border: 1px solid var(--line);
+    border-right: none; border-radius: var(--radius-lg) 0 0 var(--radius-lg);
+    padding: var(--space-5) var(--space-6); max-width: 560px;
+  }
+  .row { display: flex; align-items: center; gap: var(--space-4); padding: var(--space-3) 0; border-bottom: 1px solid var(--line); font-size: 14px; color: var(--ink-secondary); }
+  .row:last-child { border-bottom: none; }
+  .head { color: var(--ink); justify-content: space-between; font-family: "Poppins", sans-serif; }
+  .who { width: 104px; color: var(--ink); font-weight: 600; }
+  .cell { flex: 1; }
+  .tag { font-family: "Poppins", sans-serif; font-size: 12px; font-weight: 600; padding: 3px var(--space-3); border-radius: var(--radius-pill); }
+  .blue { background: var(--brand-soft); color: var(--brand-strong); }
+  .grey { background: var(--surface-sunken); color: var(--ink-muted); border: 1px solid var(--line); }
+  .flagrow { background: var(--attention); border-radius: var(--radius-sm); padding: var(--space-3); color: var(--ink); gap: var(--space-3); }
+  .flagrow i { width: 3px; align-self: stretch; background: var(--ink); border-radius: 2px; flex: none; }
+  figcaption { margin-top: var(--space-3); font-family: "IBM Plex Mono", monospace; font-size: 13px; color: var(--ink-muted); }
+</style>

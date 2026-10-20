@@ -1,0 +1,10 @@
+{
+  "$description": "The one input of the brand family (ADR 0009). Change this value and run node scripts/tokens.mjs; every brand role follows.",
+  "brand": {
+    "input": {
+      "$type": "color",
+      "$value": "#2A5BD7",
+      "$description": "The ScheduLink blue, taken from the logo files."
+    }
+  }
+}
