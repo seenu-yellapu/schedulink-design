@@ -21,6 +21,7 @@ Seenu answered the calls found while moving the system into this repo on 2026-10
 | # | Question | Options |
 |---|---|---|
 | 10 | ADR 0005 gives product illustrations `shadow-product`, but the approved homepage tab pictures have none | Tab pictures get the shadow / extend ADR 0011 to tab pictures |
+| 12 | Section padding moved from 120px (`space-9`) to 80px (`space-8`) so each section fits one laptop screen, and the platform tab picture shows at 85% on the homepage. Accept as the rule? | Accept / keep 120px |
 | 11 | The TabIllustration preview still uses hand-set blues (`#EAF0FD`, `#C9D8F6`) for the date and part tiles | Move onto the ramp / leave them |
 
 ## Not built yet

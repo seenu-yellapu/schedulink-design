@@ -39,12 +39,12 @@
     "space-8": {
       "$type": "dimension",
       "$value": "80px",
-      "$description": "Section padding on mobile, page side margin on desktop."
+      "$description": "Section padding, top and bottom, on desktop and phones (Seenu, 2026-10-20: each section fits one laptop screen). Page side margin on desktop."
     },
     "space-9": {
       "$type": "dimension",
       "$value": "120px",
-      "$description": "Section padding on desktop. This spacing is what makes the page feel calm."
+      "$description": "Large gaps between blocks inside a section. No longer section padding: at 120px most sections did not fit one laptop screen."
     }
   },
   "radius": {

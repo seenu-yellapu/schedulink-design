@@ -30,6 +30,8 @@ The brand book fixes the hero, then the logo row, then the benefits. It names th
 
 Headings are always left-aligned under their tag; only the closing call to action is centred.
 
+Each section fits one laptop screen at full size: about 750px tall at 1440px wide (Seenu, 2026-10-20). An FAQ shows its questions with the answers closed.
+
 ## Platform tabs
 
 One tab per part, in this order: Photoshoot management, Task tracking, Photographer scheduling, Client relationships,
@@ -55,5 +57,5 @@ Email and form automation, Online booking. The footer's Platform column lists th
 | `space-5` | 24px | Card padding and gutters on phones |
 | `space-6` | 32px | Card padding on desktop, between cards |
 | `space-7` | 48px | Between a section header and its content |
-| `space-8` | 80px | Section padding on phones, page side margin on desktop |
-| `space-9` | 120px | Section padding on desktop |
+| `space-8` | 80px | Section padding on desktop and phones, page side margin on desktop |
+| `space-9` | 120px | Large gaps between blocks inside a section |
