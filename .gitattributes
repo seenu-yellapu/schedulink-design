@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.png binary
+tokens/build/** linguist-generated=true
+tokens/palette.tokens.json linguist-generated=true
+specimen/index.html linguist-generated=true
