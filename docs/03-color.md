@@ -89,6 +89,8 @@ ScheduLink Marketing system set it.
 | `illus-shootcard` | `#F6F9FF` | brand.2 (was `#F4F6FB`) | Shoot card background in the Photographers column. |
 | `illus-shootcard-line` | `#E1EBFF` | brand.4 (was `#E6EBF6`) | Shoot card border. |
 | `illus-tile-line` | `#E1EBFF` | brand.4 (was `#DBE4FA`) | Border of the pale blue column-header tile in product illustrations. The tile itself is brand-soft. |
+| `illus-date` | `#EBF2FF` | brand.3 | Date tile and part tile fill in tab pictures. |
+| `illus-date-line` | `#D1E0FF` | brand.5 | Border of the date tile in tab pictures. |
 | `symbol-line` | `#E3E3E7` | set by hand | Border of the white tile behind a benefit symbol. |
 | `confirm` | `#2C9A4B` | set by hand | The green tick badge on a benefit symbol. Shapes only, always with a tick, never text. |
 | `grid-line` | `#EBEBEE` | set by hand | Lines of the background grid behind homepage sections (Seenu, 2026-10-20). |

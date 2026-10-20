@@ -16,7 +16,7 @@ Seenu answered every call on 2026-10-20.
 | 8 | The Cover spelled "Schedulink" | Fixed to ScheduLink, with the other previews that had it |
 | 9 | Carried-over ADRs had lines Claude wrote | Cut to Status and Decision |
 | 10 | Tab pictures: shadow or none | No shadow ([ADR 0012](adr/0012-tab-pictures-without-shadow.md)) |
-| 11 | Hand-set blues in the tab pictures | Moved onto ramp steps 3 and 5 |
+| 11 | Hand-set blues in the tab pictures | New roles `illus-date` and `illus-date-line`, on ramp steps 3 and 5 |
 | 12 | Section padding | 80px (`space-8`), so each section fits one laptop screen |
 | 13 | Feature page text styles | `display-m` 38px hero, `display-s` 36px section headings |
 | 14 | Feature page block titles | `heading` 28px |

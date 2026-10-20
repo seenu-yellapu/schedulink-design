@@ -16,10 +16,12 @@ Values live in `tokens/typography.tokens.json`; the build writes a `.type-<name>
 | Style | Face | Size / line / weight | Tracking | Use |
 |---|---|---|---|---|
 | `display-xl` | Poppins | 54px / 1.06 / 600 | -0.03em | Homepage hero and the switching heading |
+| `display-sub` | Poppins | 40px / 1.06 / 400 | -0.02em | Second line of the homepage hero |
 | `display-l` | Poppins | 48px / 1.08 / 600 | -0.03em | Homepage section headings |
 | `display-m` | Poppins | 38px / 1.1 / 600 | -0.03em | Feature page hero |
 | `display-s` | Poppins | 36px / 1.1 / 600 | -0.03em | Section headings on feature pages |
 | `heading` | Poppins | 28px / 1.2 / 600 | -0.02em | Benefit headlines, sub-sections |
+| `quote` | Poppins | 22px / 1.35 / 600 | -0.01em | Customer quotes |
 | `subheading` | Poppins | 20px / 1.3 / 600 | -0.01em | Card titles |
 | `body-l` | Inter | 19px / 1.6 / 400 | | Section intros |
 | `body` | Inter | 17px / 1.6 / 400 | | Running text |

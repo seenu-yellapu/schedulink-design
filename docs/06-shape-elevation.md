@@ -10,6 +10,7 @@
 | `radius-lg` | 16px | Cards, panels, screenshot fragments |
 | `radius-xl` | 24px | Screenshot frames and large feature blocks |
 | `radius-card` | 24px | Section cards on the grey page |
+| `radius-panel` | 32px | Full-width tinted panels on the homepage |
 | `radius-pill` | 999px | Avatars and status dots only, never buttons or tabs |
 
 Chips use 6px, which has no token yet.

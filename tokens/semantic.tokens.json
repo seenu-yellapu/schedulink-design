@@ -186,6 +186,16 @@
         }
       }
     },
+    "illus-date": {
+      "$type": "color",
+      "$value": "{palette.brand.3}",
+      "$description": "Date tile and part tile fill in tab pictures."
+    },
+    "illus-date-line": {
+      "$type": "color",
+      "$value": "{palette.brand.5}",
+      "$description": "Border of the date tile in tab pictures."
+    },
     "symbol-line": {
       "$type": "color",
       "$description": "Border of the white tile behind a benefit symbol.",
