@@ -3,6 +3,7 @@
 //   tokens/build/globals.css     every token as a CSS custom property, plus a class per text style
 //   tokens/build/tokens.json     the same values in the Claude design system format, for re-syncing the artifact
 //   tokens/build/contrast.json   every checked pair and its ratio
+//   tokens/build/claude-readme.md  docs/ 00 to 12 as one brief, the README of the Claude design system
 //   docs/03-color.md             the tables between the generated markers
 //   specimen/index.html          the specimen page
 // Then it checks contrast and house style, and fails on any failure.
@@ -158,6 +159,20 @@ for (const p of prose) {
   const text = outputs.get(p) ?? read(p);
   text.split('\n').forEach((line, i) => { if (line.includes('—')) errors.push(`${p}:${i + 1} has an em dash`); });
 }
+
+// 8b. The Claude design system README: docs 00 to 12 joined, links reduced to their text (they point at repo files)
+const briefDocs = readdirSync(join(ROOT, 'docs')).filter((f) => /^(0\d|1[0-2])-.*\.md$/.test(f)).sort();
+const brief = [
+  '# ScheduLink Marketing',
+  '',
+  'GENERATED from docs/ in github.com/seenu-yellapu/schedulink-design by scripts/tokens.mjs. Change the rules there, not here.',
+  ...briefDocs.map((f) => (outputs.get(`docs/${f}`) ?? read(`docs/${f}`))
+    .replace(/<!-- generated:[a-z]+:(begin|end) -->\n?/g, '')
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    .replace(/^# /m, '## ')
+    .replace(/^(#{2,}) (?!\d\d\.)/gm, '#$1 ')),
+].join('\n\n');
+emit('tokens/build/claude-readme.md', brief);
 
 // 9. The specimen
 const { buildSpecimen } = await import('./specimen.mjs');

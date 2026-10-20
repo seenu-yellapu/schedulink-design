@@ -28,6 +28,8 @@ Seenu answered every call on 2026-10-20.
 | 20 | Homepage headings off the scale | Snapped to the scale |
 | 21 | Hand-set homepage details | New `display-sub`, `quote`, `radius-panel`, `grid-line`, `grid-node` and `grid-mark` |
 | 22 | `illus-tile-line` as its own role | Accepted |
+| 23 | Claude design system README | Built from `docs/` 00 to 12 |
+| 24 | Integration logo sizes; no proof card under a platform tab | Kept, in [05 Layout](05-layout.md) |
 
 ## Calls for Seenu
 

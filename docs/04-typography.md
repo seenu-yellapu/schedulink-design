@@ -36,7 +36,6 @@ Values live in `tokens/typography.tokens.json`; the build writes a `.type-<name>
 - Headlines break at meaningful points, not wherever the box ends.
 - With no accent colour in play, size and weight are the main tools for hierarchy: use the full range of the scale.
 - Headlines are tight: -0.03em on display styles.
-- The hero headline splits its weight across three lines: "Studio Management" (never wraps) and "Software" in Poppins
-  600 `ink` at 62px, then "for Volume Photography" (never wraps) in Poppins 400 `ink-secondary` at 46px. On narrower
-  screens the whole headline scales down rather than wrapping. These two sizes are not in the scale yet
-  ([13 Roadmap](13-roadmap.md)).
+- The homepage hero headline is two lines: "Studio Management Software" in `display-xl`, then "for Volume
+  Photography" in `display-sub` and `ink-secondary`. On narrower screens the whole headline scales down rather than
+  wrapping.
