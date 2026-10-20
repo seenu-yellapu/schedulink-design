@@ -1,0 +1,15 @@
+{
+  "$description": "Shadows exist for product images only (ADR 0005).",
+  "shadow": {
+    "shadow-product": {
+      "$type": "shadow",
+      "$value": "0 1px 2px rgba(15, 17, 23, 0.05), 0 16px 40px rgba(15, 17, 23, 0.09)",
+      "$description": "Product images only: screenshots and interface fragments. Never on page sections, cards, buttons or panels."
+    },
+    "shadow-product-lift": {
+      "$type": "shadow",
+      "$value": "0 2px 4px rgba(15, 17, 23, 0.08), 0 28px 56px rgba(15, 17, 23, 0.18)",
+      "$description": "The front-most layer in a stacked product image, such as the phone in the hero."
+    }
+  }
+}

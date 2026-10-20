@@ -1,0 +1,36 @@
+<!-- @dsCard group="Brand" height=260 -->
+<div class="wrap">
+  <div class="tile light">
+    <img src="../../brand/logo/wordmark-blue.png" alt="ScheduLink wordmark in brand blue">
+    <span class="label">Default, light grounds</span>
+  </div>
+  <div class="tile brand">
+    <img src="../../brand/logo/wordmark-white.png" alt="ScheduLink wordmark in white">
+    <span class="label on">On brand or dark</span>
+  </div>
+  <div class="tile light icons">
+    <img class="icon" src="../../brand/logo/icon-blue.png" alt="ScheduLink icon in brand blue">
+    <img class="icon dark-only" src="../../brand/logo/icon-black.png" alt="ScheduLink icon in black">
+    <span class="label">Icon: favicon, avatars</span>
+  </div>
+</div>
+<style>
+  body { margin: 0; padding: var(--space-6); background: var(--surface); font-family: "Inter", sans-serif; }
+  .wrap { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: var(--space-5); }
+  .tile {
+    border-radius: var(--radius-lg); padding: var(--space-6);
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: var(--space-5);
+    min-height: 150px;
+  }
+  .light { background: var(--surface); border: 1px solid var(--line); }
+  .brand { background: var(--brand); }
+  .tile img { width: 180px; max-width: 100%; height: auto; }
+  .icons { flex-direction: column; }
+  .tile .icon { width: 56px; }
+  .icons { flex-direction: row; flex-wrap: wrap; }
+  .label {
+    width: 100%; text-align: center;
+    font-family: "IBM Plex Mono", monospace; font-size: 13px; color: var(--ink-muted);
+  }
+  .label.on { color: var(--on-brand); }
+</style>

@@ -1,0 +1,246 @@
+{
+  "$description": "Three faces: Poppins for display, Inter for text, IBM Plex Mono for labels (ADR 0004). Hosted by Google Fonts; no font files in this repo.",
+  "font": {
+    "display": {
+      "$type": "fontFamily",
+      "$value": [
+        "Poppins",
+        "Segoe UI",
+        "Helvetica",
+        "sans-serif"
+      ]
+    },
+    "sans": {
+      "$type": "fontFamily",
+      "$value": [
+        "Inter",
+        "Segoe UI",
+        "Helvetica",
+        "sans-serif"
+      ]
+    },
+    "mono": {
+      "$type": "fontFamily",
+      "$value": [
+        "IBM Plex Mono",
+        "ui-monospace",
+        "Menlo",
+        "monospace"
+      ]
+    }
+  },
+  "style": {
+    "display-xl": {
+      "$type": "typography",
+      "$description": "Homepage hero and the switching heading. 54px, weight 600, as on the approved homepage (was 68px, 700, never used on a page).",
+      "$value": {
+        "fontFamily": "{font.display}",
+        "fontSize": "54px",
+        "fontWeight": 600,
+        "lineHeight": 1.06,
+        "letterSpacing": "-0.03em"
+      },
+      "$extensions": {
+        "schedulink": {
+          "group": "Display"
+        }
+      }
+    },
+    "display-sub": {
+      "$type": "typography",
+      "$description": "Second line of the homepage hero heading, lighter than the first (Seenu, 2026-10-20).",
+      "$value": {
+        "fontFamily": "{font.display}",
+        "fontSize": "40px",
+        "fontWeight": 400,
+        "lineHeight": 1.06,
+        "letterSpacing": "-0.02em"
+      },
+      "$extensions": {
+        "schedulink": {
+          "group": "Display"
+        }
+      }
+    },
+    "display-l": {
+      "$type": "typography",
+      "$description": "Homepage section headings. Weight 600, as on every approved page (was 700, never used on a page).",
+      "$value": {
+        "fontFamily": "{font.display}",
+        "fontSize": "48px",
+        "fontWeight": 600,
+        "lineHeight": 1.08,
+        "letterSpacing": "-0.03em"
+      },
+      "$extensions": {
+        "schedulink": {
+          "group": "Display"
+        }
+      }
+    },
+    "display-m": {
+      "$type": "typography",
+      "$description": "Feature page hero heading (Seenu, 2026-10-20: the 52px heading was too big).",
+      "$value": {
+        "fontFamily": "{font.display}",
+        "fontSize": "38px",
+        "fontWeight": 600,
+        "lineHeight": 1.1,
+        "letterSpacing": "-0.03em"
+      },
+      "$extensions": {
+        "schedulink": {
+          "group": "Display"
+        }
+      }
+    },
+    "display-s": {
+      "$type": "typography",
+      "$description": "Section headings on feature pages, one step below the feature page hero (Seenu, 2026-10-20).",
+      "$value": {
+        "fontFamily": "{font.display}",
+        "fontSize": "36px",
+        "fontWeight": 600,
+        "lineHeight": 1.1,
+        "letterSpacing": "-0.03em"
+      },
+      "$extensions": {
+        "schedulink": {
+          "group": "Display"
+        }
+      }
+    },
+    "heading": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.display}",
+        "fontSize": "28px",
+        "fontWeight": 600,
+        "lineHeight": 1.2,
+        "letterSpacing": "-0.02em"
+      },
+      "$extensions": {
+        "schedulink": {
+          "group": "Display"
+        }
+      }
+    },
+    "quote": {
+      "$type": "typography",
+      "$description": "Customer quotes (Seenu, 2026-10-20).",
+      "$value": {
+        "fontFamily": "{font.display}",
+        "fontSize": "22px",
+        "fontWeight": 600,
+        "lineHeight": 1.35,
+        "letterSpacing": "-0.01em"
+      },
+      "$extensions": {
+        "schedulink": {
+          "group": "Display"
+        }
+      }
+    },
+    "subheading": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.display}",
+        "fontSize": "20px",
+        "fontWeight": 600,
+        "lineHeight": 1.3,
+        "letterSpacing": "-0.01em"
+      },
+      "$extensions": {
+        "schedulink": {
+          "group": "Display"
+        }
+      }
+    },
+    "body-l": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.sans}",
+        "fontSize": "19px",
+        "fontWeight": 400,
+        "lineHeight": 1.6
+      },
+      "$extensions": {
+        "schedulink": {
+          "group": "Text"
+        }
+      }
+    },
+    "body": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.sans}",
+        "fontSize": "17px",
+        "fontWeight": 400,
+        "lineHeight": 1.6
+      },
+      "$extensions": {
+        "schedulink": {
+          "group": "Text"
+        }
+      }
+    },
+    "body-s": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.sans}",
+        "fontSize": "15px",
+        "fontWeight": 400,
+        "lineHeight": 1.55
+      },
+      "$extensions": {
+        "schedulink": {
+          "group": "Text"
+        }
+      }
+    },
+    "ui": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.sans}",
+        "fontSize": "15px",
+        "fontWeight": 600,
+        "lineHeight": 1.2
+      },
+      "$extensions": {
+        "schedulink": {
+          "group": "Text"
+        }
+      }
+    },
+    "eyebrow": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.mono}",
+        "fontSize": "12px",
+        "fontWeight": 500,
+        "lineHeight": 1.4,
+        "letterSpacing": "0.14em"
+      },
+      "$extensions": {
+        "schedulink": {
+          "group": "Labels",
+          "textTransform": "uppercase"
+        }
+      }
+    },
+    "caption": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.mono}",
+        "fontSize": "13px",
+        "fontWeight": 400,
+        "lineHeight": 1.45
+      },
+      "$extensions": {
+        "schedulink": {
+          "group": "Labels"
+        }
+      }
+    }
+  }
+}
