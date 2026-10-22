@@ -8,6 +8,7 @@ This branch is the only place pages are built and reviewed (Seenu, 2026-10-20). 
 |---|---|
 | Homepage | index.html |
 | Photoshoot management | photoshoot-management/index.html (draft, awaiting sign-off) |
+| Task tracking | task-tracking/index.html (draft, pictures to come) |
 | Photographer scheduling | photographer-scheduling/index.html (draft, pictures to come) |
 
 `assets/schedulink.css` is a copy of `tokens/build/globals.css` from the design system. Never edit it here: change the tokens, rebuild, and copy the file over. Pages take colours, spacing and text styles from it.
