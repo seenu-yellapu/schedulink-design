@@ -213,7 +213,7 @@ const MODULES = [
 
 var cur=0;
 function render(){
-  var PAGES={'Photoshoot management':'photoshoot-management/'}; var lm=document.getElementById('lm'); if(lm) lm.href=PAGES[MODULES[cur].name]||'#module';
+  var PAGES={'Photoshoot management':'photoshoot-management/','Photographer scheduling':'photographer-scheduling/'}; var lm=document.getElementById('lm'); if(lm) lm.href=PAGES[MODULES[cur].name]||'#module';
   var m=MODULES[cur];
   document.querySelectorAll('[data-f]').forEach(function(el){el.textContent=m[el.getAttribute('data-f')];});
   var has=false; document.querySelectorAll('[data-img]').forEach(function(el){var on=el.getAttribute('data-img')===m.name; el.style.display=on?'block':'none'; if(on)has=true;});
