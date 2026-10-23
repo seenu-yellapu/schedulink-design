@@ -14,5 +14,6 @@ This branch is the only place pages are built and reviewed (Seenu, 2026-10-20). 
 | Email and form automation | email-and-form-automation/index.html (draft, pictures to come) |
 | Pricing | pricing/index.html (draft) |
 | Switching | switching/index.html (draft) |
+| Book a demo | book-a-demo/index.html (draft) |
 
 `assets/schedulink.css` is a copy of `tokens/build/globals.css` from the design system. Never edit it here: change the tokens, rebuild, and copy the file over. Pages take colours, spacing and text styles from it.
