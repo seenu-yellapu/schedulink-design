@@ -15,5 +15,10 @@ This branch is the only place pages are built and reviewed (Seenu, 2026-10-20). 
 | Pricing | pricing/index.html (draft) |
 | Switching | switching/index.html (draft) |
 | Book a demo | book-a-demo/index.html (draft) |
+| Contact | contact/index.html (draft) |
+| Security | security/index.html (draft, statement to come) |
+| Online booking | online-booking/index.html (coming soon page) |
+| Privacy | privacy/index.html (shell, legal text to come) |
+| Terms | terms/index.html (shell, legal text to come) |
 
 `assets/schedulink.css` is a copy of `tokens/build/globals.css` from the design system. Never edit it here: change the tokens, rebuild, and copy the file over. Pages take colours, spacing and text styles from it.
