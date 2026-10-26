@@ -15,6 +15,7 @@ This branch is the only place pages are built and reviewed (Seenu, 2026-10-20). 
 | Pricing | pricing/index.html (draft) |
 | Switching | switching/index.html (draft) |
 | Book a demo | book-a-demo/index.html (draft) |
+| About | about/index.html (draft) |
 | Contact | contact/index.html (draft) |
 | Security | security/index.html (draft, statement to come) |
 | Online booking | online-booking/index.html (coming soon page) |
