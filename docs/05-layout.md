@@ -11,6 +11,9 @@ A soft grey page with white cards floating on it.
   rails. The rails are 1px lines 23px in from each page edge, running from under the header to the bottom.
 - **Header:** plain white, full width, a hairline underneath, fixed to the top while the page scrolls. Not floating, not
   rounded, not inset.
+- **Every page** has the same ground, side rails, section lines with + marks, and the footer on the grey (Seenu,
+  2026-10-27). The footer is a light block: blue wordmark, four link columns, a hairline, then address, social links and
+  the copyright line. No dark band.
 
 ## The homepage
 

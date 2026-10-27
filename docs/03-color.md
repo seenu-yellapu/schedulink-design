@@ -64,7 +64,7 @@ ScheduLink Marketing system set it.
 | `surface` | `#FFFFFF` | set by hand | Default page background. Most of the site sits on this. |
 | `surface-sunken` | `#F7F7F8` | set by hand | Alternating section bands. Never two sunken bands in a row. |
 | `surface-raised` | `#FFFFFF` | set by hand | Cards and panels. On light they need a line border to read, since there are no shadows. |
-| `surface-invert` | `#2F2F2F` | set by hand | The footer, and nothing else on a page. The closing CTA stays white: two dark bands near each other makes the page bottom-heavy in a monochrome system. |
+| `surface-invert` | `#2F2F2F` | set by hand | Reserved. The footer sits on the grey, not on a dark band (Seenu, 2026-10-27), so nothing on the site uses this yet. |
 | `ink` | `#2F2F2F` | set by hand | The house dark. Headlines and primary text. |
 | `ink-secondary` | `#585A5E` | set by hand | Body copy and supporting paragraphs. |
 | `ink-muted` | `#6B6E73` | set by hand | Eyebrow labels, captions, metadata. Never body copy. |
