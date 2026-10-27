@@ -30,6 +30,11 @@ Seenu answered every call on 2026-10-20.
 | 22 | `illus-tile-line` as its own role | Accepted |
 | 23 | Claude design system README | Built from `docs/` 00 to 12 |
 | 24 | Integration logo sizes; no proof card under a platform tab | Kept, in [05 Layout](05-layout.md) |
+| 25 | Benefit symbol size | 80px tile on desktop, 64px on phones (was 110px and 88px) |
+| 26 | Space around a row with no heading on the grey | 48px above and below |
+| 27 | Footer: light on the grey or a dark band | Light, on every page. `surface-invert` is reserved |
+| 28 | Section hairlines, + marks and side rails | On every page, not only the homepage |
+| 29 | Section cross marks colour | `grid-node`, the same grey as the grid dots (was a hand-set `#B9BBC0`) |
 
 ## Calls for Seenu
 

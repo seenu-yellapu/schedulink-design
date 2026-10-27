@@ -4,9 +4,9 @@ One symbol per benefit: a dark line icon on a white rounded tile, with a small c
 
 ## Anatomy
 
-- **Tile:** white `#FFFFFF`, 1px `symbol-line` (`#E3E3E7`) border, corners about 28% of the tile size. Desktop 110px with 30px corners; phone 88px with 24px corners.
+- **Tile:** white `#FFFFFF`, 1px `symbol-line` (`#E3E3E7`) border, corners about 28% of the tile size. Desktop 80px with 22px corners; phone 64px with 18px corners (Seenu, 2026-10-27: 110px read bigger than the headline).
 - **Icon:** `ink` (`#2F2F2F`) stroke, 1.2 wide, round caps and joins, no fill, drawn at half the tile size on a 24 by 24 grid. (1.8 was tried and read too heavy next to the headlines.)
-- **Badge:** a circle 37% of the tile size (desktop 40px, phone 32px), 3px white border, set 25% of its own size above the tile and 28% of its own size past its right edge. White icon inside at 45% of the badge, stroke 2.5.
+- **Badge:** a circle 37% of the tile size (desktop 30px, phone 24px), 2px white border, set 25% of its own size above the tile and 28% of its own size past its right edge. White icon inside at 45% of the badge, stroke 2.5.
 - **Badge colours:** `brand` (`#2A5BD7`) for growth and for coming back, `confirm` (`#2C9A4B`) for the tick. Colour only ever appears in the badge; the tile and icon stay neutral.
 
 ## The three in use

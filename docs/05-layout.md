@@ -11,6 +11,9 @@ A soft grey page with white cards floating on it.
   rails. The rails are 1px lines 23px in from each page edge, running from under the header to the bottom.
 - **Header:** plain white, full width, a hairline underneath, fixed to the top while the page scrolls. Not floating, not
   rounded, not inset.
+- **Every page** has the same ground, side rails, section lines with + marks, and the footer on the grey (Seenu,
+  2026-10-27). The footer is a light block: blue wordmark, four link columns, a hairline, then address, social links and
+  the copyright line. No dark band.
 
 ## The homepage
 
@@ -30,7 +33,7 @@ The brand book fixes the hero, then the logo row, then the benefits. It names th
 
 Headings are always left-aligned under their tag; only the closing call to action is centred.
 
-Each section fits one laptop screen at full size: about 750px tall at 1440px wide (Seenu, 2026-10-20). An FAQ shows its questions with the answers closed.
+Each section fits one laptop screen at full size: about 750px tall at 1440px wide (Seenu, 2026-10-20). An FAQ shows its questions with the answers closed. A row with no heading that sits straight on the grey, like the logo row or the benefits, uses 48px (`space-7`) above and below instead (Seenu, 2026-10-27).
 
 The header stays at the top of the screen while the page scrolls (Seenu, 2026-10-20).
 
