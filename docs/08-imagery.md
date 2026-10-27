@@ -18,6 +18,28 @@ desktop, 560 tall with a fade on phones) and shares one layout: a header, four l
 sections. Each must show the linked pieces on screen, such as a photoshoot with its tasks, photographers and emails. See
 [TabIllustration](../components/TabIllustration/README.md).
 
+## Story pictures
+
+The pictures under "How it works" on a part page tell one sentence a prospect reads in two seconds, with no caption and
+no labels (Seenu, 2026-10-27; the "Ask nobody" picture on Task tracking is the reference).
+
+1. Write the prospect's question in their words. "Where are the Lakeview ID cards?"
+2. Name the feature (from the help center) and one benefit: what the owner stops doing or stops fearing.
+3. Start from a situation they already know: a text from the office, a school on the calendar, a job passing between
+   two people. Not from an app screen.
+4. Draw cause and effect: the problem on one side, the product answering it on the other.
+5. Cast it with the invented studio: the same schools and the same first names across every picture.
+6. Meaning by form, never by label. A checkbox says task. A face with a first name says who. The app's own status
+   words in the app's colours say when. A date tile shaped like the shoot's own says a day. No "Task", "Due" or
+   "Assigned to" headers.
+7. Three to eight readable elements, nothing below 13px, no grey-bar placeholders, no numbers as proof.
+8. Test it cold: cover the caption and ask whether a stranger says the sentence from step 1.
+9. Bring three ideas, each pairing the feature with a different benefit, and say which to ship.
+10. The phone version tells the same story in one column.
+
+Tried and rejected: imitation app screens full of 11px text, abstract grey bars with one readable thing, labels added
+to a picture that did not read, dates where the app shows a due status, motion added to rescue a still that failed.
+
 ## Screenshot fragments
 
 Screenshots appear as fragments, not full app windows ([ScreenshotFrame](../components/ScreenshotFrame/README.md)).
