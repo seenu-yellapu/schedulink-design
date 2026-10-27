@@ -35,7 +35,7 @@ Seenu answered every call on 2026-10-20.
 | 27 | Footer: light on the grey or a dark band | Light, on every page. `surface-invert` is reserved |
 | 28 | Section hairlines, + marks and side rails | On every page, not only the homepage |
 | 29 | Section cross marks colour | `grid-node`, the same grey as the grid dots (was a hand-set `#B9BBC0`) |
-| 30 | How to draw the How it works pictures | The story-pictures process in [08 Imagery](08-imagery.md) |
+| 30 | How to draw the How it works pictures | The story-pictures process in [08 Imagery](08-imagery.md): three ideas from three different concept sources, none reused on the same page |
 
 ## Calls for Seenu
 
