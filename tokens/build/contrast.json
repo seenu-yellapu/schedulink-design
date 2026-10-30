@@ -1,12 +1,12 @@
 {
-  "total": 24,
+  "total": 25,
   "failed": 0,
   "known": 0,
   "pairs": [
     {
       "fg": "ink",
       "bg": "surface",
-      "min": 4.5,
+      "min": 7,
       "ratio": 13.39,
       "pass": true,
       "known": false,
@@ -16,7 +16,7 @@
     {
       "fg": "ink",
       "bg": "page-grey",
-      "min": 4.5,
+      "min": 7,
       "ratio": 12.07,
       "pass": true,
       "known": false,
@@ -26,7 +26,7 @@
     {
       "fg": "ink",
       "bg": "surface-sunken",
-      "min": 4.5,
+      "min": 7,
       "ratio": 12.51,
       "pass": true,
       "known": false,
@@ -36,7 +36,7 @@
     {
       "fg": "ink",
       "bg": "attention",
-      "min": 4.5,
+      "min": 7,
       "ratio": 11.66,
       "pass": true,
       "known": false,
@@ -46,8 +46,8 @@
     {
       "fg": "ink-secondary",
       "bg": "surface",
-      "min": 4.5,
-      "ratio": 6.91,
+      "min": 7,
+      "ratio": 9.16,
       "pass": true,
       "known": false,
       "why": "body copy",
@@ -56,8 +56,8 @@
     {
       "fg": "ink-secondary",
       "bg": "page-grey",
-      "min": 4.5,
-      "ratio": 6.23,
+      "min": 7,
+      "ratio": 8.26,
       "pass": true,
       "known": false,
       "why": "body copy on the grey",
@@ -66,18 +66,28 @@
     {
       "fg": "ink-secondary",
       "bg": "surface-sunken",
-      "min": 4.5,
-      "ratio": 6.45,
+      "min": 7,
+      "ratio": 8.56,
       "pass": true,
       "known": false,
       "why": "body copy on sunken bands",
       "note": null
     },
     {
+      "fg": "ink-secondary",
+      "bg": "attention",
+      "min": 7,
+      "ratio": 7.98,
+      "pass": true,
+      "known": false,
+      "why": "body copy on attention panels",
+      "note": null
+    },
+    {
       "fg": "ink-muted",
       "bg": "surface",
-      "min": 4.5,
-      "ratio": 5.12,
+      "min": 7,
+      "ratio": 8.21,
       "pass": true,
       "known": false,
       "why": "eyebrows, captions",
@@ -86,8 +96,8 @@
     {
       "fg": "ink-muted",
       "bg": "surface-sunken",
-      "min": 4.5,
-      "ratio": 4.78,
+      "min": 7,
+      "ratio": 7.67,
       "pass": true,
       "known": false,
       "why": "captions on sunken bands",
@@ -96,51 +106,21 @@
     {
       "fg": "ink-muted",
       "bg": "page-grey",
-      "min": 4.5,
-      "ratio": 4.62,
+      "min": 7,
+      "ratio": 7.4,
       "pass": true,
       "known": false,
       "why": "captions in sections on the grey",
       "note": null
     },
     {
-      "fg": "brand",
-      "bg": "surface",
-      "min": 4.5,
-      "ratio": 5.87,
+      "fg": "ink-muted",
+      "bg": "attention",
+      "min": 7,
+      "ratio": 7.15,
       "pass": true,
       "known": false,
-      "why": "section tags and the selected tab (12px text)",
-      "note": null
-    },
-    {
-      "fg": "brand",
-      "bg": "page-grey",
-      "min": 4.5,
-      "ratio": 5.3,
-      "pass": true,
-      "known": false,
-      "why": "section tags on the grey",
-      "note": null
-    },
-    {
-      "fg": "on-brand",
-      "bg": "brand",
-      "min": 4.5,
-      "ratio": 5.87,
-      "pass": true,
-      "known": false,
-      "why": "primary button label",
-      "note": null
-    },
-    {
-      "fg": "on-brand",
-      "bg": "brand-strong",
-      "min": 4.5,
-      "ratio": 7.93,
-      "pass": true,
-      "known": false,
-      "why": "primary button label on hover",
+      "why": "labels on attention panels",
       "note": null
     },
     {
@@ -150,7 +130,7 @@
       "ratio": 7.93,
       "pass": true,
       "known": false,
-      "why": "links",
+      "why": "links and section tags",
       "note": null
     },
     {
@@ -160,7 +140,7 @@
       "ratio": 7.15,
       "pass": true,
       "known": false,
-      "why": "links on the grey",
+      "why": "links and section tags on the grey",
       "note": null
     },
     {
@@ -174,10 +154,30 @@
       "note": null
     },
     {
+      "fg": "on-brand",
+      "bg": "brand",
+      "min": 4.5,
+      "ratio": 5.87,
+      "pass": true,
+      "known": false,
+      "why": "primary button label: the one text below 7:1, kept on the logo blue (Seenu, 2026-10-29)",
+      "note": null
+    },
+    {
+      "fg": "on-brand",
+      "bg": "brand-strong",
+      "min": 7,
+      "ratio": 7.93,
+      "pass": true,
+      "known": false,
+      "why": "primary button label on hover",
+      "note": null
+    },
+    {
       "fg": "status-overdue-text",
       "bg": "status-overdue-bg",
-      "min": 4.5,
-      "ratio": 5.6,
+      "min": 7,
+      "ratio": 7.35,
       "pass": true,
       "known": false,
       "why": "overdue pill",
@@ -186,8 +186,8 @@
     {
       "fg": "status-today-text",
       "bg": "status-today-bg",
-      "min": 4.5,
-      "ratio": 5.91,
+      "min": 7,
+      "ratio": 7.61,
       "pass": true,
       "known": false,
       "why": "due-today pill",
@@ -196,7 +196,7 @@
     {
       "fg": "status-later-text",
       "bg": "status-later-bg",
-      "min": 4.5,
+      "min": 7,
       "ratio": 7.05,
       "pass": true,
       "known": false,
@@ -206,11 +206,21 @@
     {
       "fg": "on-brand",
       "bg": "surface-invert",
-      "min": 4.5,
+      "min": 7,
       "ratio": 13.39,
       "pass": true,
       "known": false,
-      "why": "footer text",
+      "why": "text on the dark ground",
+      "note": null
+    },
+    {
+      "fg": "brand",
+      "bg": "surface",
+      "min": 3,
+      "ratio": 5.87,
+      "pass": true,
+      "known": false,
+      "why": "brand as a shape: badges, fills, the selected tab mark",
       "note": null
     },
     {

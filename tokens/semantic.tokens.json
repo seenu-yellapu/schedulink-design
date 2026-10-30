@@ -29,15 +29,20 @@
     "ink-secondary": {
       "$type": "color",
       "$description": "Body copy and supporting paragraphs.",
-      "$value": "#585A5E"
+      "$value": "#46484C",
+      "$extensions": {
+        "schedulink": {
+          "was": "#585A5E"
+        }
+      }
     },
     "ink-muted": {
       "$type": "color",
       "$description": "Eyebrow labels, captions, metadata. Never body copy.",
-      "$value": "#6B6E73",
+      "$value": "#4D4F53",
       "$extensions": {
         "schedulink": {
-          "was": "#73767B"
+          "was": "#6B6E73"
         }
       }
     },
@@ -104,7 +109,12 @@
     "status-overdue-text": {
       "$type": "color",
       "$description": "Overdue status pill text.",
-      "$value": "#B42318"
+      "$value": "#941C13",
+      "$extensions": {
+        "schedulink": {
+          "was": "#B42318"
+        }
+      }
     },
     "status-today-bg": {
       "$type": "color",
@@ -114,7 +124,12 @@
     "status-today-text": {
       "$type": "color",
       "$description": "Due-today status pill text.",
-      "$value": "#6A3FBF"
+      "$value": "#58339F",
+      "$extensions": {
+        "schedulink": {
+          "was": "#6A3FBF"
+        }
+      }
     },
     "status-later-bg": {
       "$type": "color",

@@ -2,7 +2,8 @@
 
 ## Status
 
-Proposed (2026-10-20). New with this repo; Seenu confirms or changes it in review.
+Proposed (2026-10-20). New with this repo; Seenu confirms or changes it in review. Decisions 1 and 2 superseded by
+[0013](0013-all-text-at-seven-to-one.md) for text.
 
 ## Context
 

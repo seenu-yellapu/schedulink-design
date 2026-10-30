@@ -212,12 +212,13 @@ Decisions: ADR 0005, ADR 0006.
 
 ### 8. Readable for everyone
 
-Text clears 4.5:1 on its ground and brand text 7:1; the build checks every pair.
+Every piece of text clears 7:1 on its ground, inside pictures too; the build checks every pair. The one exception is
+the primary button label, kept on the logo blue (ADR 0013).
 
 - Nothing below 13px in a picture, and no meaning by colour alone (12 Accessibility).
 - Product loops stop when the visitor asks for reduced motion (14 Motion).
 
-Decision: ADR 0007.
+Decisions: ADR 0007, ADR 0013.
 
 ### Objections we answer
 
@@ -357,8 +358,8 @@ ScheduLink Marketing system set it.
 | `surface-raised` | `#FFFFFF` | set by hand | Cards and panels. On light they need a line border to read, since there are no shadows. |
 | `surface-invert` | `#2F2F2F` | set by hand | Reserved. The footer sits on the grey, not on a dark band (Seenu, 2026-10-27), so nothing on the site uses this yet. |
 | `ink` | `#2F2F2F` | set by hand | The house dark. Headlines and primary text. |
-| `ink-secondary` | `#585A5E` | set by hand | Body copy and supporting paragraphs. |
-| `ink-muted` | `#6B6E73` | set by hand | Eyebrow labels, captions, metadata. Never body copy. |
+| `ink-secondary` | `#46484C` | set by hand | Body copy and supporting paragraphs. |
+| `ink-muted` | `#4D4F53` | set by hand | Eyebrow labels, captions, metadata. Never body copy. |
 | `brand` | `#2A5BD7` | brand.9 | The ScheduLink blue, from the logo. Buttons, links, active states and the mark itself. Nothing decorative. |
 | `brand-strong` | `#1E48B5` | brand.11 (was `#1F43A8`) | Link text on light grounds and primary button hover. |
 | `brand-soft` | `#EBF2FF` | brand.3 (was `#ECEFFA`) | Tint behind a positive status chip or an active nav item. Text on it is brand-strong. |
@@ -368,9 +369,9 @@ ScheduLink Marketing system set it.
 | `line-strong` | `#8A8C91` | set by hand | Input and control borders, secondary button outlines, focus rings. |
 | `page-grey` | `#F3F3F4` | set by hand | The page ground. Sections float on it as white cards. |
 | `status-overdue-bg` | `#FDE8E8` | set by hand | Overdue status pill background. |
-| `status-overdue-text` | `#B42318` | set by hand | Overdue status pill text. |
+| `status-overdue-text` | `#941C13` | set by hand | Overdue status pill text. |
 | `status-today-bg` | `#F2ECFC` | set by hand | Due-today status pill background. Purple is used for due-today only. |
-| `status-today-text` | `#6A3FBF` | set by hand | Due-today status pill text. |
+| `status-today-text` | `#58339F` | set by hand | Due-today status pill text. |
 | `status-later-bg` | `#EBF2FF` | brand.3 (was `#EEF2FC`) | Due-later status pill background. |
 | `status-later-text` | `#1E48B5` | brand.11 (was `#1F43A8`) | Due-later status pill text. |
 | `illus-rim` | `#F3F3F5` | set by hand | Soft rim around product illustrations. |
@@ -396,32 +397,35 @@ later or scheduled, green for done or accepted, amber for waiting on a reply (sc
 
 ### Contrast
 
-Every pair below is checked by the build (ADR 0007). Body text needs 4.5:1 on its
-ground, brand text 7:1, control borders, icons and badge shapes 3:1.
+Every pair below is checked by the build (ADR 0007,
+ADR 0013). Every text colour needs 7:1 on its ground, except the primary button
+label on the logo blue at 4.5:1. Control borders, icons and badge shapes need 3:1. Blue text uses `brand-strong`;
+`brand` is for fills, badges and marks.
 
 | Text or shape | On | Ratio | Needs | Result |
 |---|---|---|---|---|
-| `ink` | `surface` | 13.39:1 | 4.5:1 | Pass |
-| `ink` | `page-grey` | 12.07:1 | 4.5:1 | Pass |
-| `ink` | `surface-sunken` | 12.51:1 | 4.5:1 | Pass |
-| `ink` | `attention` | 11.66:1 | 4.5:1 | Pass |
-| `ink-secondary` | `surface` | 6.91:1 | 4.5:1 | Pass |
-| `ink-secondary` | `page-grey` | 6.23:1 | 4.5:1 | Pass |
-| `ink-secondary` | `surface-sunken` | 6.45:1 | 4.5:1 | Pass |
-| `ink-muted` | `surface` | 5.12:1 | 4.5:1 | Pass |
-| `ink-muted` | `surface-sunken` | 4.78:1 | 4.5:1 | Pass |
-| `ink-muted` | `page-grey` | 4.62:1 | 4.5:1 | Pass |
-| `brand` | `surface` | 5.87:1 | 4.5:1 | Pass |
-| `brand` | `page-grey` | 5.30:1 | 4.5:1 | Pass |
-| `on-brand` | `brand` | 5.87:1 | 4.5:1 | Pass |
-| `on-brand` | `brand-strong` | 7.93:1 | 4.5:1 | Pass |
+| `ink` | `surface` | 13.39:1 | 7:1 | Pass |
+| `ink` | `page-grey` | 12.07:1 | 7:1 | Pass |
+| `ink` | `surface-sunken` | 12.51:1 | 7:1 | Pass |
+| `ink` | `attention` | 11.66:1 | 7:1 | Pass |
+| `ink-secondary` | `surface` | 9.16:1 | 7:1 | Pass |
+| `ink-secondary` | `page-grey` | 8.26:1 | 7:1 | Pass |
+| `ink-secondary` | `surface-sunken` | 8.56:1 | 7:1 | Pass |
+| `ink-secondary` | `attention` | 7.98:1 | 7:1 | Pass |
+| `ink-muted` | `surface` | 8.21:1 | 7:1 | Pass |
+| `ink-muted` | `surface-sunken` | 7.67:1 | 7:1 | Pass |
+| `ink-muted` | `page-grey` | 7.40:1 | 7:1 | Pass |
+| `ink-muted` | `attention` | 7.15:1 | 7:1 | Pass |
 | `brand-strong` | `surface` | 7.93:1 | 7:1 | Pass |
 | `brand-strong` | `page-grey` | 7.15:1 | 7:1 | Pass |
 | `brand-strong` | `brand-soft` | 7.05:1 | 7:1 | Pass |
-| `status-overdue-text` | `status-overdue-bg` | 5.60:1 | 4.5:1 | Pass |
-| `status-today-text` | `status-today-bg` | 5.91:1 | 4.5:1 | Pass |
-| `status-later-text` | `status-later-bg` | 7.05:1 | 4.5:1 | Pass |
-| `on-brand` | `surface-invert` | 13.39:1 | 4.5:1 | Pass |
+| `on-brand` | `brand` | 5.87:1 | 4.5:1 | Pass |
+| `on-brand` | `brand-strong` | 7.93:1 | 7:1 | Pass |
+| `status-overdue-text` | `status-overdue-bg` | 7.35:1 | 7:1 | Pass |
+| `status-today-text` | `status-today-bg` | 7.61:1 | 7:1 | Pass |
+| `status-later-text` | `status-later-bg` | 7.05:1 | 7:1 | Pass |
+| `on-brand` | `surface-invert` | 13.39:1 | 7:1 | Pass |
+| `brand` | `surface` | 5.87:1 | 3:1 | Pass |
 | `line-strong` | `surface` | 3.36:1 | 3:1 | Pass |
 | `confirm` | `surface` | 3.60:1 | 3:1 | Pass |
 | `on-brand` | `confirm` | 3.60:1 | 3:1 | Pass |
@@ -455,7 +459,7 @@ Values live in `tokens/typography.tokens.json`; the build writes a `.type-<name>
 | `quote` | Poppins | 22px / 1.35 / 600 | -0.01em | Customer quotes |
 | `subheading` | Poppins | 20px / 1.3 / 600 | -0.01em | Card titles |
 | `body-l` | Inter | 19px / 1.6 / 400 | | Section intros |
-| `body` | Inter | 17px / 1.6 / 400 | | Running text |
+| `body` | Inter | 18px / 1.6 / 400 | | Running text (ADR 0013) |
 | `body-s` | Inter | 15px / 1.55 / 400 | | Card bodies |
 | `ui` | Inter | 15px / 1.2 / 600 | | Buttons and labels |
 | `eyebrow` | IBM Plex Mono | 12px / 1.4 / 500, uppercase | 0.14em | Section tags |
@@ -698,7 +702,7 @@ and her tasks across five schools filling the list).
 7. Meaning by form, never by label. A checkbox says task. A face with a first name says who. The app's own status
    words in the app's colours say when. A date tile shaped like the shoot's own says a day. No "Task", "Due" or
    "Assigned to" headers.
-8. Three to eight readable elements, nothing below 13px, no grey-bar placeholders, no numbers as proof. If a control
+8. Three to eight readable elements, nothing below 13px, every text colour at 7:1, no grey-bar placeholders, no numbers as proof. If a control
    has several parts (three filter groups, say), show one open and the rest folded to a line.
 9. Test it cold: cover the caption and ask whether a stranger says the sentence from step 1.
 10. Bring three ideas, pick one, say why. Seenu judges. His yes is a direction, not the finish: expect rounds on
@@ -887,20 +891,20 @@ Sentence case, verb first, under four words: "Schedule a demo", not "Learn more 
 
 ## 12. Accessibility
 
-WCAG 2.2 AA, with brand text held to 7:1 (ADR 0007).
+WCAG 2.2 AA, with every piece of text held to 7:1, the AAA level (ADR 0013).
 
 | Rule | How it is met |
 |---|---|
-| Body text 4.5:1 on its ground | Checked by the build for every role on every ground it sits on (03 Color) |
+| All text 7:1 on its ground | Checked by the build for every role on every ground it sits on (03 Color); text inside pictures is measured on every page. The primary button label is the one exception, at 5.87:1 on the logo blue |
 | Large text, icons, control borders, badges 3:1 | Checked by the build: `line-strong`, `confirm`, the white tick |
-| Brand text 7:1 | The ramp searches step 11 until it reaches 7:1 on every ground |
+| Blue text 7:1 | Blue text uses `brand-strong`, step 11, which the ramp searches until it reaches 7:1 on every ground |
 | No meaning by colour alone | A confirmed row gets a tick as well as green; "Waiting" is always written |
 | Focus visible | 2px `line-strong` ring, offset 2px, on every button variant |
 | Motion | Product loops stop when the visitor asks for reduced motion |
 | Images | Benefit symbols carry `role="img"` and a label that says what they show |
 | Product pictures | Each picture is one `role="img"` with a label that says the sentence it tells; the text drawn inside is not read twice |
 | Reflow | Every page reflows to one column at 320px with nothing lost and no sideways scroll (05 Layout) |
-| Text in pictures | Nothing below 13px, and phone pictures are drawn for phones, not scaled down |
+| Text in pictures | 7:1 like the page, nothing below 13px, and phone pictures are drawn for phones, not scaled down |
 | Headings | One `h1` per page; sections use `h2` and blocks inside them `h3`, in order |
 | Keyboard | Every link, button, tab and question is reachable with Tab and opens with Enter or Space; questions use the browser's own disclosure |
 | Links | A link's words say where it goes ("See how switching works"); the help center says it opens in a new tab |
@@ -923,8 +927,8 @@ yet rather than the browser's disclosure.
 
 ### Known failures
 
-None. `ink-muted` was darkened from `#73767B` to `#6B6E73` (Seenu, 2026-10-20) so captions pass AA on `page-grey` and
-`surface-sunken` as well as on white. A new failure needs Seenu's decision before it is listed.
+None. `ink-muted` was darkened from `#73767B` to `#6B6E73` (Seenu, 2026-10-20), then to `#4D4F53` with `ink-secondary`
+to `#46484C` when all text moved to 7:1 (Seenu, 2026-10-29). A new failure needs Seenu's decision before it is listed.
 
 
 ## 14. Motion

@@ -18,9 +18,10 @@ A carried-over ADR holds only its Status and Decision: the Context, Consequences
 | [0004](0004-three-faces.md) | Poppins, Inter and IBM Plex Mono | Accepted (carried over) |
 | [0005](0005-flat-page-product-depth.md) | The page is flat; the product has depth | Accepted (carried over) |
 | [0006](0006-product-visuals.md) | Product visuals: illustrations and fragments, fictional data | Accepted (carried over) |
-| [0007](0007-aa-contrast-enforced.md) | WCAG AA contrast, checked by the build | Proposed (2026-10-20) |
+| [0007](0007-aa-contrast-enforced.md) | WCAG AA contrast, checked by the build | Proposed (2026-10-20); decisions 1 and 2 superseded by 0013 |
 | [0008](0008-tokens-as-source.md) | Tokens as files, outputs generated | Proposed (2026-10-20) |
 | [0009](0009-brand-family-from-one-colour.md) | The brand family from one colour | Accepted (2026-10-20) |
 | [0010](0010-repo-is-the-source.md) | This repo is the source; the Claude design system is a view | Proposed (2026-10-20) |
 | [0011](0011-fragments-without-shadow.md) | Screenshot fragments have no shadow | Accepted (2026-10-20) |
 | [0012](0012-tab-pictures-without-shadow.md) | Tab pictures have no shadow | Accepted (2026-10-20) |
+| [0013](0013-all-text-at-seven-to-one.md) | All text at 7:1, body text at 18px | Accepted (2026-10-29) |

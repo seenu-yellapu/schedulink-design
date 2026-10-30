@@ -99,20 +99,22 @@ const dsTokens = {
 };
 emit('tokens/build/tokens.json', JSON.stringify(dsTokens, null, 2));
 
-// 6. Contrast (ADR 0007). [foreground, ground, minimum, why]
+// 6. Contrast (ADR 0007, ADR 0013: all text at 7:1). [foreground, ground, minimum, why]
+const T = 7;
 const PAIRS = [
-  ['ink', 'surface', 4.5, 'headlines and text'], ['ink', 'page-grey', 4.5, 'text in sections on the grey'],
-  ['ink', 'surface-sunken', 4.5, 'text on sunken bands'], ['ink', 'attention', 4.5, 'attention panels'],
-  ['ink-secondary', 'surface', 4.5, 'body copy'], ['ink-secondary', 'page-grey', 4.5, 'body copy on the grey'],
-  ['ink-secondary', 'surface-sunken', 4.5, 'body copy on sunken bands'],
-  ['ink-muted', 'surface', 4.5, 'eyebrows, captions'], ['ink-muted', 'surface-sunken', 4.5, 'captions on sunken bands'],
-  ['ink-muted', 'page-grey', 4.5, 'captions in sections on the grey'],
-  ['brand', 'surface', 4.5, 'section tags and the selected tab (12px text)'], ['brand', 'page-grey', 4.5, 'section tags on the grey'],
-  ['on-brand', 'brand', TARGETS.onSolid, 'primary button label'], ['on-brand', 'brand-strong', 4.5, 'primary button label on hover'],
-  ['brand-strong', 'surface', TARGETS.text, 'links'], ['brand-strong', 'page-grey', TARGETS.text, 'links on the grey'],
-  ['brand-strong', 'brand-soft', TARGETS.text, 'text on the brand tint'],
-  ['status-overdue-text', 'status-overdue-bg', 4.5, 'overdue pill'], ['status-today-text', 'status-today-bg', 4.5, 'due-today pill'],
-  ['status-later-text', 'status-later-bg', 4.5, 'due-later pill'], ['on-brand', 'surface-invert', 4.5, 'footer text'],
+  ['ink', 'surface', T, 'headlines and text'], ['ink', 'page-grey', T, 'text in sections on the grey'],
+  ['ink', 'surface-sunken', T, 'text on sunken bands'], ['ink', 'attention', T, 'attention panels'],
+  ['ink-secondary', 'surface', T, 'body copy'], ['ink-secondary', 'page-grey', T, 'body copy on the grey'],
+  ['ink-secondary', 'surface-sunken', T, 'body copy on sunken bands'], ['ink-secondary', 'attention', T, 'body copy on attention panels'],
+  ['ink-muted', 'surface', T, 'eyebrows, captions'], ['ink-muted', 'surface-sunken', T, 'captions on sunken bands'],
+  ['ink-muted', 'page-grey', T, 'captions in sections on the grey'], ['ink-muted', 'attention', T, 'labels on attention panels'],
+  ['brand-strong', 'surface', T, 'links and section tags'], ['brand-strong', 'page-grey', T, 'links and section tags on the grey'],
+  ['brand-strong', 'brand-soft', T, 'text on the brand tint'],
+  ['on-brand', 'brand', TARGETS.onSolid, 'primary button label: the one text below 7:1, kept on the logo blue (Seenu, 2026-10-29)'],
+  ['on-brand', 'brand-strong', T, 'primary button label on hover'],
+  ['status-overdue-text', 'status-overdue-bg', T, 'overdue pill'], ['status-today-text', 'status-today-bg', T, 'due-today pill'],
+  ['status-later-text', 'status-later-bg', T, 'due-later pill'], ['on-brand', 'surface-invert', T, 'text on the dark ground'],
+  ['brand', 'surface', 3, 'brand as a shape: badges, fills, the selected tab mark'],
   ['line-strong', 'surface', 3, 'control borders and focus rings'], ['confirm', 'surface', 3, 'tick badge as a shape'],
   ['on-brand', 'confirm', 3, 'white tick on the green badge'],
 ];

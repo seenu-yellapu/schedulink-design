@@ -48,7 +48,7 @@ and her tasks across five schools filling the list).
 7. Meaning by form, never by label. A checkbox says task. A face with a first name says who. The app's own status
    words in the app's colours say when. A date tile shaped like the shoot's own says a day. No "Task", "Due" or
    "Assigned to" headers.
-8. Three to eight readable elements, nothing below 13px, no grey-bar placeholders, no numbers as proof. If a control
+8. Three to eight readable elements, nothing below 13px, every text colour at 7:1, no grey-bar placeholders, no numbers as proof. If a control
    has several parts (three filter groups, say), show one open and the rest folded to a line.
 9. Test it cold: cover the caption and ask whether a stranger says the sentence from step 1.
 10. Bring three ideas, pick one, say why. Seenu judges. His yes is a direction, not the finish: expect rounds on
