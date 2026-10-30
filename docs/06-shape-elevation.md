@@ -30,8 +30,8 @@ No shadows on sections, cards, buttons or panels. Structure comes from `line` ha
 
 ## States
 
-Hover is a bonus, never the only sign: everything a visitor can click already looks clickable. On the preview pages states
-change colour only; a hover lift on tabs and buttons was left for the build spec (Seenu, 2026-10-16).
+Hover is a bonus, never the only sign: everything a visitor can click already looks clickable. States change colour,
+not size or depth: no lift and no shadow on hover (Seenu, 2026-10-29).
 
 | Element | Rest | Hover | Focus |
 |---|---|---|---|

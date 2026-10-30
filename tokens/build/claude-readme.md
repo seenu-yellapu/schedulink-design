@@ -482,7 +482,7 @@ A soft grey page with white cards floating on it.
   inset 32px from the page edges on desktop and 12px on phones, with 87px of padding at each side inside the card and
   20px on phones: the same edges as the homepage (Seenu, 2026-10-25).
 - **Some sections sit straight on the grey** to vary the rhythm: the logo row, the benefits, testimonials and the FAQ.
-- **Between sections:** a 64px grey gap (32px on phones, except on the homepage) with a thin line across the full page width and a small + where it meets the side
+- **Between sections:** a 64px grey gap (32px on phones) with a thin line across the full page width and a small + where it meets the side
   rails. The rails are 1px lines 23px in from each page edge, running from under the header to the bottom.
 - **Header:** plain white, full width, a hairline underneath, fixed to the top while the page scrolls. Not floating, not
   rounded, not inset.
@@ -608,8 +608,8 @@ No shadows on sections, cards, buttons or panels. Structure comes from `line` ha
 
 ### States
 
-Hover is a bonus, never the only sign: everything a visitor can click already looks clickable. On the preview pages states
-change colour only; a hover lift on tabs and buttons was left for the build spec (Seenu, 2026-10-16).
+Hover is a bonus, never the only sign: everything a visitor can click already looks clickable. States change colour,
+not size or depth: no lift and no shadow on hover (Seenu, 2026-10-29).
 
 | Element | Rest | Hover | Focus |
 |---|---|---|---|
