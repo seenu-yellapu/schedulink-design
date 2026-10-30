@@ -5,8 +5,8 @@
   --surface-raised: #FFFFFF;
   --surface-invert: #2F2F2F;
   --ink: #2F2F2F;
-  --ink-secondary: #585A5E;
-  --ink-muted: #6B6E73;
+  --ink-secondary: #46484C;
+  --ink-muted: #4D4F53;
   --brand: #2A5BD7;
   --brand-strong: #1E48B5;
   --brand-soft: #EBF2FF;
@@ -16,9 +16,9 @@
   --line-strong: #8A8C91;
   --page-grey: #F3F3F4;
   --status-overdue-bg: #FDE8E8;
-  --status-overdue-text: #B42318;
+  --status-overdue-text: #941C13;
   --status-today-bg: #F2ECFC;
-  --status-today-text: #6A3FBF;
+  --status-today-text: #58339F;
   --status-later-bg: #EBF2FF;
   --status-later-text: #1E48B5;
   --illus-rim: #F3F3F5;
@@ -79,7 +79,7 @@
 .type-quote { font-family: var(--font-display); font-size: 22px; line-height: 1.35; font-weight: 600; letter-spacing: -0.01em; }
 .type-subheading { font-family: var(--font-display); font-size: 20px; line-height: 1.3; font-weight: 600; letter-spacing: -0.01em; }
 .type-body-l { font-family: var(--font-sans); font-size: 19px; line-height: 1.6; font-weight: 400; }
-.type-body { font-family: var(--font-sans); font-size: 17px; line-height: 1.6; font-weight: 400; }
+.type-body { font-family: var(--font-sans); font-size: 18px; line-height: 1.6; font-weight: 400; }
 .type-body-s { font-family: var(--font-sans); font-size: 15px; line-height: 1.55; font-weight: 400; }
 .type-ui { font-family: var(--font-sans); font-size: 15px; line-height: 1.2; font-weight: 600; }
 .type-eyebrow { font-family: var(--font-mono); font-size: 12px; line-height: 1.4; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; }
