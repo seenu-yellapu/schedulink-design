@@ -66,8 +66,8 @@ ScheduLink Marketing system set it.
 | `surface-raised` | `#FFFFFF` | set by hand | Cards and panels. On light they need a line border to read, since there are no shadows. |
 | `surface-invert` | `#2F2F2F` | set by hand | Reserved. The footer sits on the grey, not on a dark band (Seenu, 2026-10-27), so nothing on the site uses this yet. |
 | `ink` | `#2F2F2F` | set by hand | The house dark. Headlines and primary text. |
-| `ink-secondary` | `#585A5E` | set by hand | Body copy and supporting paragraphs. |
-| `ink-muted` | `#6B6E73` | set by hand | Eyebrow labels, captions, metadata. Never body copy. |
+| `ink-secondary` | `#46484C` | set by hand | Body copy and supporting paragraphs. |
+| `ink-muted` | `#4D4F53` | set by hand | Eyebrow labels, captions, metadata. Never body copy. |
 | `brand` | `#2A5BD7` | brand.9 | The ScheduLink blue, from the logo. Buttons, links, active states and the mark itself. Nothing decorative. |
 | `brand-strong` | `#1E48B5` | brand.11 (was `#1F43A8`) | Link text on light grounds and primary button hover. |
 | `brand-soft` | `#EBF2FF` | brand.3 (was `#ECEFFA`) | Tint behind a positive status chip or an active nav item. Text on it is brand-strong. |
@@ -77,9 +77,9 @@ ScheduLink Marketing system set it.
 | `line-strong` | `#8A8C91` | set by hand | Input and control borders, secondary button outlines, focus rings. |
 | `page-grey` | `#F3F3F4` | set by hand | The page ground. Sections float on it as white cards. |
 | `status-overdue-bg` | `#FDE8E8` | set by hand | Overdue status pill background. |
-| `status-overdue-text` | `#B42318` | set by hand | Overdue status pill text. |
+| `status-overdue-text` | `#941C13` | set by hand | Overdue status pill text. |
 | `status-today-bg` | `#F2ECFC` | set by hand | Due-today status pill background. Purple is used for due-today only. |
-| `status-today-text` | `#6A3FBF` | set by hand | Due-today status pill text. |
+| `status-today-text` | `#58339F` | set by hand | Due-today status pill text. |
 | `status-later-bg` | `#EBF2FF` | brand.3 (was `#EEF2FC`) | Due-later status pill background. |
 | `status-later-text` | `#1E48B5` | brand.11 (was `#1F43A8`) | Due-later status pill text. |
 | `illus-rim` | `#F3F3F5` | set by hand | Soft rim around product illustrations. |
@@ -106,33 +106,36 @@ later or scheduled, green for done or accepted, amber for waiting on a reply (sc
 
 ## Contrast
 
-Every pair below is checked by the build ([ADR 0007](adr/0007-aa-contrast-enforced.md)). Body text needs 4.5:1 on its
-ground, brand text 7:1, control borders, icons and badge shapes 3:1.
+Every pair below is checked by the build ([ADR 0007](adr/0007-aa-contrast-enforced.md),
+[ADR 0013](adr/0013-all-text-at-seven-to-one.md)). Every text colour needs 7:1 on its ground, except the primary button
+label on the logo blue at 4.5:1. Control borders, icons and badge shapes need 3:1. Blue text uses `brand-strong`;
+`brand` is for fills, badges and marks.
 
 <!-- generated:contrast:begin -->
 | Text or shape | On | Ratio | Needs | Result |
 |---|---|---|---|---|
-| `ink` | `surface` | 13.39:1 | 4.5:1 | Pass |
-| `ink` | `page-grey` | 12.07:1 | 4.5:1 | Pass |
-| `ink` | `surface-sunken` | 12.51:1 | 4.5:1 | Pass |
-| `ink` | `attention` | 11.66:1 | 4.5:1 | Pass |
-| `ink-secondary` | `surface` | 6.91:1 | 4.5:1 | Pass |
-| `ink-secondary` | `page-grey` | 6.23:1 | 4.5:1 | Pass |
-| `ink-secondary` | `surface-sunken` | 6.45:1 | 4.5:1 | Pass |
-| `ink-muted` | `surface` | 5.12:1 | 4.5:1 | Pass |
-| `ink-muted` | `surface-sunken` | 4.78:1 | 4.5:1 | Pass |
-| `ink-muted` | `page-grey` | 4.62:1 | 4.5:1 | Pass |
-| `brand` | `surface` | 5.87:1 | 4.5:1 | Pass |
-| `brand` | `page-grey` | 5.30:1 | 4.5:1 | Pass |
-| `on-brand` | `brand` | 5.87:1 | 4.5:1 | Pass |
-| `on-brand` | `brand-strong` | 7.93:1 | 4.5:1 | Pass |
+| `ink` | `surface` | 13.39:1 | 7:1 | Pass |
+| `ink` | `page-grey` | 12.07:1 | 7:1 | Pass |
+| `ink` | `surface-sunken` | 12.51:1 | 7:1 | Pass |
+| `ink` | `attention` | 11.66:1 | 7:1 | Pass |
+| `ink-secondary` | `surface` | 9.16:1 | 7:1 | Pass |
+| `ink-secondary` | `page-grey` | 8.26:1 | 7:1 | Pass |
+| `ink-secondary` | `surface-sunken` | 8.56:1 | 7:1 | Pass |
+| `ink-secondary` | `attention` | 7.98:1 | 7:1 | Pass |
+| `ink-muted` | `surface` | 8.21:1 | 7:1 | Pass |
+| `ink-muted` | `surface-sunken` | 7.67:1 | 7:1 | Pass |
+| `ink-muted` | `page-grey` | 7.40:1 | 7:1 | Pass |
+| `ink-muted` | `attention` | 7.15:1 | 7:1 | Pass |
 | `brand-strong` | `surface` | 7.93:1 | 7:1 | Pass |
 | `brand-strong` | `page-grey` | 7.15:1 | 7:1 | Pass |
 | `brand-strong` | `brand-soft` | 7.05:1 | 7:1 | Pass |
-| `status-overdue-text` | `status-overdue-bg` | 5.60:1 | 4.5:1 | Pass |
-| `status-today-text` | `status-today-bg` | 5.91:1 | 4.5:1 | Pass |
-| `status-later-text` | `status-later-bg` | 7.05:1 | 4.5:1 | Pass |
-| `on-brand` | `surface-invert` | 13.39:1 | 4.5:1 | Pass |
+| `on-brand` | `brand` | 5.87:1 | 4.5:1 | Pass |
+| `on-brand` | `brand-strong` | 7.93:1 | 7:1 | Pass |
+| `status-overdue-text` | `status-overdue-bg` | 7.35:1 | 7:1 | Pass |
+| `status-today-text` | `status-today-bg` | 7.61:1 | 7:1 | Pass |
+| `status-later-text` | `status-later-bg` | 7.05:1 | 7:1 | Pass |
+| `on-brand` | `surface-invert` | 13.39:1 | 7:1 | Pass |
+| `brand` | `surface` | 5.87:1 | 3:1 | Pass |
 | `line-strong` | `surface` | 3.36:1 | 3:1 | Pass |
 | `confirm` | `surface` | 3.60:1 | 3:1 | Pass |
 | `on-brand` | `confirm` | 3.60:1 | 3:1 | Pass |

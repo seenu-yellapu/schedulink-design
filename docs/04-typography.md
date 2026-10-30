@@ -24,7 +24,7 @@ Values live in `tokens/typography.tokens.json`; the build writes a `.type-<name>
 | `quote` | Poppins | 22px / 1.35 / 600 | -0.01em | Customer quotes |
 | `subheading` | Poppins | 20px / 1.3 / 600 | -0.01em | Card titles |
 | `body-l` | Inter | 19px / 1.6 / 400 | | Section intros |
-| `body` | Inter | 17px / 1.6 / 400 | | Running text |
+| `body` | Inter | 18px / 1.6 / 400 | | Running text ([ADR 0013](adr/0013-all-text-at-seven-to-one.md)) |
 | `body-s` | Inter | 15px / 1.55 / 400 | | Card bodies |
 | `ui` | Inter | 15px / 1.2 / 600 | | Buttons and labels |
 | `eyebrow` | IBM Plex Mono | 12px / 1.4 / 500, uppercase | 0.14em | Section tags |

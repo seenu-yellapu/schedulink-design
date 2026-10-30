@@ -86,12 +86,13 @@ Decisions: [ADR 0005](adr/0005-flat-page-product-depth.md), [ADR 0006](adr/0006-
 
 ## 8. Readable for everyone
 
-Text clears 4.5:1 on its ground and brand text 7:1; the build checks every pair.
+Every piece of text clears 7:1 on its ground, inside pictures too; the build checks every pair. The one exception is
+the primary button label, kept on the logo blue ([ADR 0013](adr/0013-all-text-at-seven-to-one.md)).
 
 - Nothing below 13px in a picture, and no meaning by colour alone ([12 Accessibility](12-accessibility.md)).
 - Product loops stop when the visitor asks for reduced motion ([14 Motion](14-motion.md)).
 
-Decision: [ADR 0007](adr/0007-aa-contrast-enforced.md).
+Decisions: [ADR 0007](adr/0007-aa-contrast-enforced.md), [ADR 0013](adr/0013-all-text-at-seven-to-one.md).
 
 ## Objections we answer
 

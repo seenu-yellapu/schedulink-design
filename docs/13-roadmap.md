@@ -17,7 +17,7 @@ of who the site is for, motion, page patterns, breakpoints, states, formats and 
 
 ## Decided
 
-Seenu answered every call on 2026-10-20, and calls 31 to 42 on 2026-10-29.
+Seenu answered every call on 2026-10-20, and calls 31 to 45 on 2026-10-29.
 
 | # | Question | Decision |
 |---|---|---|
@@ -63,6 +63,9 @@ Seenu answered every call on 2026-10-20, and calls 31 to 42 on 2026-10-29.
 | 40 | Patterns rules | No pop-ups or chat bubbles over the page; no tiers or "contact sales"; no phone or job title fields |
 | 41 | Motion rules | Nothing slides in, no autoplay outside pictures, no scroll effects |
 | 42 | Content rules | Formats, tone by page and the invented cast |
+| 43 | Kevin's "Big, plain and obvious" | All text at 7:1 and body text at 18px; no "word with every icon" rule ([ADR 0013](adr/0013-all-text-at-seven-to-one.md)) |
+| 44 | The primary button at 7:1 | Kept on the logo blue at 5.87:1, the one exception |
+| 45 | Text inside product pictures | Raised to 7:1 now, in every picture |
 
 ## Calls for Seenu
 

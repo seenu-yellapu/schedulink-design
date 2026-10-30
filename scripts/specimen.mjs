@@ -50,7 +50,7 @@ h1{font-family:var(--font-display);font-weight:600;font-size:40px;letter-spacing
 .lede{color:var(--ink-secondary);max-width:68ch;margin:0 0 40px}
 section{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-card);padding:40px;margin-bottom:24px}
 h2{font-family:var(--font-display);font-weight:600;font-size:28px;letter-spacing:-.02em;margin:0 0 6px}
-.tag{font-family:var(--font-mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--brand);margin:0 0 10px}
+.tag{font-family:var(--font-mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--brand-strong);margin:0 0 10px}
 .sub{color:var(--ink-secondary);margin:0 0 24px;max-width:68ch}
 code{font-family:var(--font-mono);font-size:12px}
 .meta{font-family:var(--font-mono);font-size:12px;color:var(--ink-secondary)}
