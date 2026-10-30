@@ -5,15 +5,50 @@ A soft grey page with white cards floating on it.
 ## The page
 
 - **Ground:** `page-grey` (#F3F3F4). Sections are white cards with 24px corners (`radius-card`) and a 1px `line` border,
-  inset 40px from the page edges.
+  inset 32px from the page edges on desktop and 12px on phones, with 87px of padding at each side inside the card and
+  20px on phones: the same edges as the homepage (Seenu, 2026-10-25).
 - **Some sections sit straight on the grey** to vary the rhythm: the logo row, the benefits, testimonials and the FAQ.
-- **Between sections:** a 64px grey gap with a thin line across the full page width and a small + where it meets the side
+- **Between sections:** a 64px grey gap (32px on phones) with a thin line across the full page width and a small + where it meets the side
   rails. The rails are 1px lines 23px in from each page edge, running from under the header to the bottom.
 - **Header:** plain white, full width, a hairline underneath, fixed to the top while the page scrolls. Not floating, not
   rounded, not inset.
 - **Every page** has the same ground, side rails, section lines with + marks, and the footer on the grey (Seenu,
   2026-10-27). The footer is a light block: blue wordmark, four link columns, a hairline, then address, social links and
   the copyright line. No dark band.
+
+## Breakpoints
+
+The site is designed at 1440px and checked from 390px to 1512px. Every page reflows down to 320px with nothing lost and
+no sideways scrolling.
+
+| Width | What changes |
+|---|---|
+| 1440px and wider | The design: content stops at 1440px and the grey runs on either side |
+| 1300px and below | Pictures scale down inside their cards |
+| 1199px and below | Header padding drops to 48px; the part page hero text narrows to 380px and its picture scales further |
+| 1000px and below | The header hides its middle links; the homepage goes to one column |
+| 900px and below | Every other page goes to one column, text above picture, and phone pictures replace desktop ones |
+| 760px and below | Phones: the rails go, cards sit 12px from the edge with 20px padding, the header is 64px with a 120px wordmark, the footer columns go two by two |
+
+Phone pictures are drawn for phones, never a desktop picture scaled down ([08 Imagery](08-imagery.md)).
+
+## Grids
+
+```mermaid
+flowchart LR
+  RAIL1["Rail, 23px in"] --- CARD["Card, 32px in: 87px padding, then the content"] --- RAIL2["Rail, 23px in"]
+```
+
+| Block | Desktop | Phone |
+|---|---|---|
+| Header | 80px tall, 120px padding at each side | 64px tall, 16px padding, wordmark and Schedule a demo only |
+| Part page hero | Text column 500px, picture beside it | Text, then the picture |
+| How it works block | 420px text column, a 72px gap, the picture filling the rest; sides alternate | Text, then the picture |
+| Benefits | Three columns | One column |
+| Integrations | Two by two, divided by thin lines | One column |
+| Footer | Four link columns | Two by two |
+
+Text columns stop at about 68 characters a line ([04 Typography](04-typography.md#rules)).
 
 ## The homepage
 
@@ -63,5 +98,5 @@ Email and form automation, Online booking. The footer's Platform column lists th
 | `space-5` | 24px | Card padding and gutters on phones |
 | `space-6` | 32px | Card padding on desktop, between cards |
 | `space-7` | 48px | Between a section header and its content |
-| `space-8` | 80px | Section padding on desktop and phones, page side margin on desktop |
+| `space-8` | 80px | Section padding at the top and bottom of a card, on desktop and phones |
 | `space-9` | 120px | Large gaps between blocks inside a section |

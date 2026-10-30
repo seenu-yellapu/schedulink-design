@@ -51,7 +51,7 @@ specimen and for new roles.
 The ScheduLink Marketing design system in Claude is a view of this repo
 ([ADR 0010](adr/0010-repo-is-the-source.md)). After a merge, publish `tokens/build/tokens.json` to it as
 `project/tokens.json`, `tokens/build/claude-readme.md` as `project/README.md`, and any changed `components/<Name>/`
-files to the same paths under `project/`. The Claude README is built from `docs/` 00 to 12, so a rule is changed in
+files to the same paths under `project/`. The Claude README is built from every numbered doc in `docs/` except 13 Roadmap, so a rule is changed in
 `docs/` and never in the artifact. When publishing, `brand/logo/<file>` paths in the README and previews are
 swapped for the artifact's stored logo files. Edits made in
 the artifact are copied back here by PR, never left there.
