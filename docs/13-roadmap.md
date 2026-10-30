@@ -1,5 +1,20 @@
 # 13. Roadmap and open questions
 
+## Where it stands
+
+Version 0.1 was merged on 2026-10-20: the tokens, the build, ten components, docs 00 to 13 and ADRs 0001 to 0011.
+Since then Seenu has merged the email picture fix, the Claude README built from the docs, and the benefit symbols,
+light footer and section marks. Version 0.2 brings the depth of the Silverback design system: principles, an overview
+of who the site is for, motion, page patterns, breakpoints, states, formats and testing.
+
+| Version | Delivers | Done when |
+|---|---|---|
+| 0.1 | Tokens, the build, the specimen, ten components, docs 00 to 13, ADRs 0001 to 0011 | Merged 2026-10-20 |
+| 0.2 | 14 Motion, 15 Patterns; principles, overview, layout, states, content, accessibility deepened | Seenu merges the PR |
+| Before the build | The build spec for the engineers takes the patterns and states from here | The engineers start the React site |
+| Before launch | Logos, a customer quote, the security statement, legal text, vector logo files | The site goes live |
+| 1.0 | Stable tokens, components and patterns | The site is live and a seventh part has shipped without a redesign |
+
 ## Decided
 
 Seenu answered every call on 2026-10-20.
@@ -39,7 +54,22 @@ Seenu answered every call on 2026-10-20.
 
 ## Calls for Seenu
 
-None open.
+Open with the 0.2 pull request. Each is asked, not assumed.
+
+| # | Question | Recommendation |
+|---|---|---|
+| 31 | Name this 0.2 | Yes |
+| 32 | New docs as 14 Motion and 15 Patterns, without renumbering (renumbering would break links in CLAUDE.md) | Yes |
+| 33 | The Claude design system README built from every doc except the roadmap (was 00 to 12), so Motion and Patterns reach it | Yes |
+| 34 | Eight principles and their tie-break order | Accept as written |
+| 35 | Phone gap between sections: 32px on every page but the homepage, which keeps 64px | 32px everywhere |
+| 36 | One column at 1000px on the homepage and 900px elsewhere | Keep; the homepage pictures need the extra room |
+| 37 | Photoshoot management blocks are tagged "01" only; the other parts say "01 · Created" | Add the words: Booked, Staffed, Tracked |
+| 38 | Client relationships has no question about moving over | Swap "How do our clients get in?" for one on moving over |
+| 39 | Hover lift on tabs and buttons (16 Oct) or colour only, as the preview pages do | Colour only, to keep the page flat |
+| 40 | New rules in Patterns: no pop-ups or chat bubbles over the page; no tiers or "contact sales"; no phone or job title fields | Accept |
+| 41 | New rules in Motion: nothing slides in, no autoplay outside pictures, no scroll effects | Accept |
+| 42 | Formats, tone by page and the invented cast as rules in Content | Accept |
 
 ## Not built yet
 
@@ -47,3 +77,8 @@ None open.
 - A 6px chip radius token.
 - A named icon library.
 - A script that publishes `tokens/build/tokens.json` to the Claude design system after a merge.
+- Motion tokens: the site's 150ms hover and 7s loops are written in its CSS ([14 Motion](14-motion.md)).
+- On the preview pages: the focus ring, the help center's new-tab notice, and the homepage questions as real
+  disclosures with answers ([12 Accessibility](12-accessibility.md)).
+- The Contact form's sent state.
+- The security statement: hosting, encryption, backups, certifications.

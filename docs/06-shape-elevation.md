@@ -27,3 +27,22 @@ The page is flat; the product has depth ([ADR 0005](adr/0005-flat-page-product-d
 | `shadow-product-lift` | The front-most layer in a stacked product image |
 
 No shadows on sections, cards, buttons or panels. Structure comes from `line` hairlines.
+
+## States
+
+Hover is a bonus, never the only sign: everything a visitor can click already looks clickable. On the preview pages states
+change colour only; a hover lift on tabs and buttons was left for the build spec (Seenu, 2026-10-16).
+
+| Element | Rest | Hover | Focus |
+|---|---|---|---|
+| Primary button | `brand` fill, `on-brand` text, 48px tall | `brand-strong` fill | 2px `line-strong` ring, offset 2px |
+| Secondary button | `surface` fill, 1px `line-strong` border, `ink` text | Border turns `ink` | The same ring |
+| Nav link | `ink` | `brand` | The same ring |
+| Platform menu item | `ink` | `surface-sunken` fill, `brand` text | The same ring |
+| Selected platform tab | `ink` label, open with its heading, line and link | | The same ring |
+| FAQ question | Plus mark | Plus mark | The same ring |
+| Open FAQ question | Minus mark, answer shown | | The same ring |
+
+Hover colours fade over 150ms ([14 Motion](14-motion.md)). Buttons are 48px tall so they are easy to hit on a phone.
+The focus ring is set in [components/Button](../components/Button/README.md); the preview pages on the site branch do not
+draw it yet, so it goes in the build spec ([13 Roadmap](13-roadmap.md#not-built-yet)).
