@@ -1059,7 +1059,7 @@ One template for every part, so a seventh part is a day's work: only How it work
 
 ```mermaid
 flowchart TB
-  H["Hero: part name, its own headline and line, trial and demo buttons, the tab picture"] --> W["How it works: the tab heading, then three numbered blocks"]
+  H["Hero: part name, its own headline and line, trial and demo buttons, the tab picture"] --> W["How it works: its own title, then three numbered blocks"]
   W --> Q["Questions: four closed answers"]
   Q --> C["Closing: one line for this part, demo and trial buttons"]
 ```
@@ -1067,7 +1067,7 @@ flowchart TB
 | Section | What it holds | Rules |
 |---|---|---|
 | Hero | Tag with the part's name, a `display-m` headline, one line, Start free trial and Schedule a demo, "30-day free trial, no credit card.", the part's tab picture | The headline states the part's whole job, not one mechanism, and never repeats the tab copy |
-| How it works | Tag "How it works", the tab heading as `display-s`, then three blocks | Each block: a mono tag "01 · Word", a `heading` title, one or two lines, a story picture. Text and picture alternate sides. The three tags read as one arc, such as Created, Done, Tracked |
+| How it works | Tag "How it works", the part's own title as `display-s` (not the homepage tab heading, which starts "Every" like the hero; Seenu, 2026-10-31), then three blocks | Each block: a mono tag "01 · Word", a `heading` title, one or two lines, a story picture. Text and picture alternate sides. The three tags read as one arc, such as Created, Done, Tracked |
 | Questions | Tag "Questions", "Asked at the booth.", four questions with answers closed, a link to the help center | One question is about moving over from what the studio uses now |
 | Closing | One heading naming the part ("Track every task in ScheduLink."), demo and trial buttons | The only centred heading on the page |
 
