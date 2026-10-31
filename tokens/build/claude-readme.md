@@ -556,9 +556,11 @@ One tab per part, in this order: Photoshoot management, Task tracking, Photograp
 Email and form automation, Online booking. The footer's Platform column lists the same names in the same order.
 
 - Each tab: a small mono label, a headline, one line, a "Learn more" link, and a large picture.
-- Tab headings share one shape: what the part handles, a comma, then the problem gone, in plain literal words, 5 to 9
-  words, each with a different problem word: "never scattered again", "nothing slips", "without calling around", "no
-  retyping", "none sent by hand", "not chased".
+- Tab headings share one shape: "Every", the thing the part handles, then what happens to it, in plain literal words,
+  as on the part page heroes (Seenu, 2026-10-31): "Every photoshoot, before, during and after.", "Every task, on time,
+  with a name on it.", "Every photographer, on the right photoshoot.", "Every client, season after season.", "Every
+  email and form, sent and chased.", "Every session, booked and paid ahead." The earlier shape, a comma then the problem
+  gone, was dropped because it did not fit the story.
 - The line under it says how it works, in plain facts the help center confirms.
 - No proof card, "Also" line or "Linked to" chips under it: the picture carries the proof.
 - A part that is not live gets a grey "Coming soon" label and a placeholder picture at the same size; when it ships it
