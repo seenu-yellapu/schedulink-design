@@ -13,6 +13,9 @@ used.
 - Claims must be literally true of the product: the app flags scheduling conflicts, it does not prevent them, so the
   site says flags.
 - The studio, not one person, is the subject: teams use ScheduLink.
+- Write for every photoshoot type: schools, sports, grads, dance and seniors. Where a line speaks for every photoshoot,
+  say "client forms", never "roster": not every photoshoot has one (Seenu, 2026-10-31). A roster, team list or grad list
+  appears only in an example of one type, such as a Picture Day picture, or where the point is student data.
 
 ## Tone by page
 
@@ -39,6 +42,7 @@ used.
 |---|---|
 | photoshoot | shoot (on its own), job |
 | part | module |
+| client forms | rosters, when the line covers every photoshoot |
 | clients | |
 | ScheduLink, capital L | Schedulink |
 | schools, sports leagues and dance studios | only where who ScheduLink is for is the point |
