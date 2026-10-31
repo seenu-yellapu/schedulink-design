@@ -79,8 +79,10 @@ Email and form automation, Online booking. The footer's Platform column lists th
 
 - Each tab: the part's name, a two-line description, a "Learn more" link, and a large picture. No heading between the
   name and the description (Seenu, 2026-10-31): the name already names the part, and a second heading repeated it.
-- The description says, in plain facts the help center confirms, what the part does for the people using it. At most
-  two lines at 1440px, about 80 characters.
+- The description says what the owner can now run or know across the whole studio, not what the part holds (Seenu,
+  2026-10-31): "Run every photoshoot from booking to delivery, and know where each one stands." Read top to bottom, the
+  descriptions cover the studio: the jobs, the work, the crew, the clients, the follow-up. Plain facts the help center
+  confirms, at most two lines at 1440px, about 80 characters.
 - No proof card, "Also" line or "Linked to" chips under it: the picture carries the proof.
 - A part that is not live gets a grey "Coming soon" label and a placeholder picture at the same size; when it ships it
   switches to a blue "New" label for its first months.
