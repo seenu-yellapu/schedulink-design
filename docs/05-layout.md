@@ -77,13 +77,10 @@ The header stays at the top of the screen while the page scrolls (Seenu, 2026-10
 One tab per part, in this order: Photoshoot management, Task tracking, Photographer scheduling, Client relationships,
 Email and form automation, Online booking. The footer's Platform column lists the same names in the same order.
 
-- Each tab: a small mono label, a headline, one line, a "Learn more" link, and a large picture.
-- Tab headings share one shape: "Every", the thing the part handles, then what happens to it, in plain literal words,
-  as on the part page heroes (Seenu, 2026-10-31): "Every photoshoot, before, during and after.", "Every task, on time,
-  with a name on it.", "Every photographer, on the right photoshoot.", "Every client, season after season.", "Every
-  email and form, sent and chased.", "Every session, booked and paid ahead." The earlier shape, a comma then the problem
-  gone, was dropped because it did not fit the story.
-- The line under it says how it works, in plain facts the help center confirms.
+- Each tab: the part's name, a two-line description, a "Learn more" link, and a large picture. No heading between the
+  name and the description (Seenu, 2026-10-31): the name already names the part, and a second heading repeated it.
+- The description says, in plain facts the help center confirms, what the part does for the people using it. At most
+  two lines at 1440px, about 80 characters.
 - No proof card, "Also" line or "Linked to" chips under it: the picture carries the proof.
 - A part that is not live gets a grey "Coming soon" label and a placeholder picture at the same size; when it ships it
   switches to a blue "New" label for its first months.
