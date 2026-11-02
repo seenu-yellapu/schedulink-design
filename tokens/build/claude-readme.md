@@ -11,7 +11,7 @@ The design system for schedulink.io, the marketing site. It is deliberately not 
 about eight seconds to make a studio owner feel that ScheduLink is calm, modern and built by people who understand
 picture day.
 
-### The idea: the whole studio, on the photoshoot
+### The idea: the whole studio, on the job
 
 Most visitors have already met ScheduLink at a tradeshow booth. The site confirms that conversation and follows it up;
 it is not built to be found cold. For design that means five things:
@@ -20,7 +20,7 @@ it is not built to be found cold. For design that means five things:
    up to 5 times, live in 1 to 2 weeks, $10 per active employee
    (principle 5).
 2. **A platform, not a product.** ScheduLink is shown as parts that work together on the same clients, staff and data,
-   never as one linear process, one photoshoot or one season
+   never as one linear process, one job or one season
    (principle 2).
 3. **One idea per screen.** Big type, lots of space, each section fits one laptop screen
    (principle 3).
@@ -48,7 +48,7 @@ Every page is one surface with one visitor question (15 Patterns).
 | Page | Visitor question | Type |
 |---|---|---|
 | Homepage | What is ScheduLink, and is it for a studio like mine? | Homepage |
-| Six part pages (Photoshoot management, Task tracking, Photographer scheduling, Client relationships, Email and form automation, Online booking) | How does this part work, and what does it take off my plate? | Part page |
+| Six part pages (Job management, Task tracking, Photographer scheduling, Client relationships, Email and form automation, Online booking) | How does this part work, and what does it take off my plate? | Part page |
 | Pricing | What will a studio my size pay? | Pricing |
 | Switching | How hard is it to move, and who does the moving? | Switching |
 | Book a demo | How do I see it with my own studio in mind? | Form |
@@ -150,7 +150,7 @@ own, all sharing the same clients, staff and data.
 - A new part is a new tab, a new page from the part page template and a new footer link. Nothing else changes
   (15 Patterns).
 
-Watch for: a linear process, a single photoshoot, a single season, a section that breaks when an eighth part arrives.
+Watch for: a linear process, a single job, a single season, a section that breaks when an eighth part arrives.
 
 ### 3. One idea per screen
 
@@ -181,7 +181,7 @@ Proof and specificity beat a clever headline. Every claim matches the help cente
 - Numbers are the published ones: reminders every 3 days up to 5 times, live in 1 to 2 weeks, $10 per active employee
   per month, a 30-day trial with no card.
 - Consolidation is said concretely: open a picture day and the school, schedule, photographers, roster form, emails and
-  tasks are on that one photoshoot.
+  tasks are on that one job.
 
 Watch for: "all in one place", "unify", "streamline", "seamless", "everything your studio needs", and any line
 Airstudio could run on its homepage tomorrow (11 Content).
@@ -552,13 +552,13 @@ The header stays at the top of the screen while the page scrolls (Seenu, 2026-10
 
 ### Platform tabs
 
-One tab per part, in this order: Photoshoot management, Task tracking, Photographer scheduling, Client relationships,
+One tab per part, in this order: Job management, Task tracking, Photographer scheduling, Client relationships,
 Email and form automation, Online booking. The footer's Platform column lists the same names in the same order.
 
 - Each tab: the part's name, a two-line description, a "Learn more" link, and a large picture. No heading between the
   name and the description (Seenu, 2026-10-31): the name already names the part, and a second heading repeated it.
 - The description says what the owner can now run or know across the whole studio, not what the part holds (Seenu,
-  2026-10-31): "Run every photoshoot from booking to delivery, and know where each one stands." Read top to bottom, the
+  2026-10-31): "Run every photo job, from picture day to team photos, from booking to delivery, and know where each one stands." Read top to bottom, the
   descriptions cover the studio: the jobs, the work, the crew, the clients, the follow-up. Plain facts the help center
   confirms, at most two lines at 1440px, about 80 characters.
 - No proof card, "Also" line or "Linked to" chips under it: the picture carries the proof.
@@ -660,7 +660,7 @@ Product visuals come in two kinds. Both use the soft-rimmed frame, illustrated f
 
 ### The hero illustration
 
-A studio's day: the date in the rim's top strip, three columns (Photoshoots, Tasks, Photographers) with soft tile
+A studio's day: the date in the rim's top strip, three columns (Jobs, Tasks, Photographers) with soft tile
 headers, two detailed rows then simplified rows, and a short fade. See
 ProductIllustration and
 IllustrationParts.
@@ -670,7 +670,7 @@ IllustrationParts.
 Almost-true, simplified views of real ScheduLink screens: every section, field and status shown exists in the app,
 statuses are shown by icon rather than words, and nothing is invented. Every tab picture is the same size (760 by 470 on
 desktop, 560 tall with a fade on phones) and shares one layout: a header, four labelled details, two columns of
-sections. Each must show the linked pieces on screen, such as a photoshoot with its tasks, photographers and emails. See
+sections. Each must show the linked pieces on screen, such as a job with its tasks, photographers and emails. See
 TabIllustration.
 
 ### Story pictures
@@ -830,8 +830,8 @@ used.
 - Claims must be literally true of the product: the app flags scheduling conflicts, it does not prevent them, so the
   site says flags.
 - The studio, not one person, is the subject: teams use ScheduLink.
-- Write for every photoshoot type: schools, sports, grads, dance and seniors. Where a line speaks for every photoshoot,
-  say "client forms", never "roster": not every photoshoot has one (Seenu, 2026-10-31). A roster, team list or grad list
+- Write for every kind of job: schools, sports, grads, dance and seniors. Where a line speaks for every job,
+  say "client forms", never "roster": not every job has one (Seenu, 2026-10-31). A roster, team list or grad list
   appears only in an example of one type, such as a Picture Day picture, or where the point is student data.
 
 ### Tone by page
@@ -839,9 +839,9 @@ used.
 | Page | Tone | Example |
 |---|---|---|
 | Homepage | Confident and short; the promise, then the proof | "One system instead of a stack of apps." |
-| Part pages | Practical; what the part does and what it takes off the owner's plate | "Every task on every photoshoot, done on time, and you can see it." |
+| Part pages | Practical; what the part does and what it takes off the owner's plate | "Every task on every photo job, done on time, and you can see it." |
 | Pricing | Exact; one number and who counts | "$10 per active employee, per month" |
-| Switching | Reassuring through facts, not comfort words | "Move the whole studio over in 1 to 2 weeks, and we do the moving." |
+| Switching | Reassuring through facts, not comfort words | "Most studios move over in 1 to 2 weeks, and we do the moving." |
 | Forms | Brief; what happens next | "Next you pick a time that suits you." |
 | About, Security | Promises a reader can hold us to | "We say what it does." |
 | Questions | The visitor's own words in the question, a fact in the answer | "We track tasks in a spreadsheet. What moves over?" |
@@ -857,9 +857,10 @@ used.
 
 | Say | Not |
 |---|---|
-| photoshoot | shoot (on its own), job |
+| photo job (ADR 0014): at the first mention on a page, and where nothing else says photography (search titles and descriptions, share text, a part page headline), with examples such as picture day or team photos nearby | job, shoot (on its own), event |
+| job: after the first mention, inside pictures and in the menu | |
 | part | module |
-| client forms | rosters, when the line covers every photoshoot |
+| client forms | rosters, when the line covers every job |
 | clients | |
 | ScheduLink, capital L | Schedulink |
 | schools, sports leagues and dance studios | only where who ScheduLink is for is the point |
@@ -1098,7 +1099,7 @@ photographers and editors with a login count; clients never do.
 |---|---|
 | Hero | "Move the whole studio over in 1 to 2 weeks, and we do the moving." |
 | Several tools, one move | A two-column table: what you use now, and the part that takes its place. Tools that stay (Google Calendar, Outlook, Netlife) are named as staying |
-| From demo to your first photoshoot | Four steps in order: Demo, Send your data, Setup call, Your first photoshoot |
+| From demo to your first photo job | Four steps in order: Demo, Send your data, Setup call, Your first job |
 | Every worry, answered | Four rows: Your data, Your team, Mid-season, Help |
 | Questions, Closing | As on every page |
 

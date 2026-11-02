@@ -24,7 +24,7 @@ own, all sharing the same clients, staff and data.
 - A new part is a new tab, a new page from the part page template and a new footer link. Nothing else changes
   ([15 Patterns](15-patterns.md#part-page)).
 
-Watch for: a linear process, a single photoshoot, a single season, a section that breaks when an eighth part arrives.
+Watch for: a linear process, a single job, a single season, a section that breaks when an eighth part arrives.
 
 ## 3. One idea per screen
 
@@ -55,7 +55,7 @@ Proof and specificity beat a clever headline. Every claim matches the help cente
 - Numbers are the published ones: reminders every 3 days up to 5 times, live in 1 to 2 weeks, $10 per active employee
   per month, a 30-day trial with no card.
 - Consolidation is said concretely: open a picture day and the school, schedule, photographers, roster form, emails and
-  tasks are on that one photoshoot.
+  tasks are on that one job.
 
 Watch for: "all in one place", "unify", "streamline", "seamless", "everything your studio needs", and any line
 Airstudio could run on its homepage tomorrow ([11 Content](11-content.md)).
