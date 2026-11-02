@@ -5,7 +5,7 @@ The design system for schedulink.io, the marketing site. It is deliberately not 
 about eight seconds to make a studio owner feel that ScheduLink is calm, modern and built by people who understand
 picture day.
 
-## The idea: the whole studio, on the photoshoot
+## The idea: the whole studio, on the job
 
 Most visitors have already met ScheduLink at a tradeshow booth. The site confirms that conversation and follows it up;
 it is not built to be found cold. For design that means five things:
@@ -14,7 +14,7 @@ it is not built to be found cold. For design that means five things:
    up to 5 times, live in 1 to 2 weeks, $10 per active employee
    ([principle 5](01-principles.md#5-say-only-what-is-true)).
 2. **A platform, not a product.** ScheduLink is shown as parts that work together on the same clients, staff and data,
-   never as one linear process, one photoshoot or one season
+   never as one linear process, one job or one season
    ([principle 2](01-principles.md#2-a-platform-not-a-product)).
 3. **One idea per screen.** Big type, lots of space, each section fits one laptop screen
    ([principle 3](01-principles.md#3-one-idea-per-screen)).
@@ -42,7 +42,7 @@ Every page is one surface with one visitor question ([15 Patterns](15-patterns.m
 | Page | Visitor question | Type |
 |---|---|---|
 | Homepage | What is ScheduLink, and is it for a studio like mine? | Homepage |
-| Six part pages (Photoshoot management, Task tracking, Photographer scheduling, Client relationships, Email and form automation, Online booking) | How does this part work, and what does it take off my plate? | Part page |
+| Six part pages (Job management, Task tracking, Photographer scheduling, Client relationships, Email and form automation, Online booking) | How does this part work, and what does it take off my plate? | Part page |
 | Pricing | What will a studio my size pay? | Pricing |
 | Switching | How hard is it to move, and who does the moving? | Switching |
 | Book a demo | How do I see it with my own studio in mind? | Form |

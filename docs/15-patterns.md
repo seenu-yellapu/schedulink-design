@@ -116,7 +116,7 @@ photographers and editors with a login count; clients never do.
 |---|---|
 | Hero | "Move the whole studio over in 1 to 2 weeks, and we do the moving." |
 | Several tools, one move | A two-column table: what you use now, and the part that takes its place. Tools that stay (Google Calendar, Outlook, Netlife) are named as staying |
-| From demo to your first photoshoot | Four steps in order: Demo, Send your data, Setup call, Your first photoshoot |
+| From demo to your first photo job | Four steps in order: Demo, Send your data, Setup call, Your first job |
 | Every worry, answered | Four rows: Your data, Your team, Mid-season, Help |
 | Questions, Closing | As on every page |
 
