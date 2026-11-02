@@ -29,7 +29,7 @@ Icon paths (24 by 24):
 ## Rules
 
 - One symbol per benefit, above its headline, left-aligned. Never a scene, chart, face or product screen here.
-- Give the wrapper `role="img"` and an `aria-label` that says what it shows ("A camera with an up arrow: more photoshoots"); the inner SVGs are `aria-hidden`.
+- Give the wrapper `role="img"` and an `aria-label` that says what it shows ("A camera with an up arrow: more jobs"); the inner SVGs are `aria-hidden`.
 - The tick is never shown by colour alone: it is always a tick.
 - No shadow on the tile or the badge.
 - A new benefit gets a new icon from the same family and one of the two badge colours; no new colours.

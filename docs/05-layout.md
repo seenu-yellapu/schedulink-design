@@ -74,14 +74,15 @@ The header stays at the top of the screen while the page scrolls (Seenu, 2026-10
 
 ## Platform tabs
 
-One tab per part, in this order: Photoshoot management, Task tracking, Photographer scheduling, Client relationships,
+One tab per part, in this order: Job management, Task tracking, Photographer scheduling, Client relationships,
 Email and form automation, Online booking. The footer's Platform column lists the same names in the same order.
 
-- Each tab: a small mono label, a headline, one line, a "Learn more" link, and a large picture.
-- Tab headings share one shape: what the part handles, a comma, then the problem gone, in plain literal words, 5 to 9
-  words, each with a different problem word: "never scattered again", "nothing slips", "without calling around", "no
-  retyping", "none sent by hand", "not chased".
-- The line under it says how it works, in plain facts the help center confirms.
+- Each tab: the part's name, a two-line description, a "Learn more" link, and a large picture. No heading between the
+  name and the description (Seenu, 2026-10-31): the name already names the part, and a second heading repeated it.
+- The description says what the owner can now run or know across the whole studio, not what the part holds (Seenu,
+  2026-10-31): "Run every photo job, from picture day to team photos, from booking to delivery, and know where each one stands." Read top to bottom, the
+  descriptions cover the studio: the jobs, the work, the crew, the clients, the follow-up. Plain facts the help center
+  confirms, at most two lines at 1440px, about 80 characters.
 - No proof card, "Also" line or "Linked to" chips under it: the picture carries the proof.
 - A part that is not live gets a grey "Coming soon" label and a placeholder picture at the same size; when it ships it
   switches to a blue "New" label for its first months.

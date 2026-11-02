@@ -13,15 +13,18 @@ used.
 - Claims must be literally true of the product: the app flags scheduling conflicts, it does not prevent them, so the
   site says flags.
 - The studio, not one person, is the subject: teams use ScheduLink.
+- Write for every kind of job: schools, sports, grads, dance and seniors. Where a line speaks for every job,
+  say "client forms", never "roster": not every job has one (Seenu, 2026-10-31). A roster, team list or grad list
+  appears only in an example of one type, such as a Picture Day picture, or where the point is student data.
 
 ## Tone by page
 
 | Page | Tone | Example |
 |---|---|---|
 | Homepage | Confident and short; the promise, then the proof | "One system instead of a stack of apps." |
-| Part pages | Practical; what the part does and what it takes off the owner's plate | "Every task on every photoshoot, done on time, and you can see it." |
+| Part pages | Practical; what the part does and what it takes off the owner's plate | "Every task on every photo job, done on time, and you can see it." |
 | Pricing | Exact; one number and who counts | "$10 per active employee, per month" |
-| Switching | Reassuring through facts, not comfort words | "Move the whole studio over in 1 to 2 weeks, and we do the moving." |
+| Switching | Reassuring through facts, not comfort words | "Most studios move over in 1 to 2 weeks, and we do the moving." |
 | Forms | Brief; what happens next | "Next you pick a time that suits you." |
 | About, Security | Promises a reader can hold us to | "We say what it does." |
 | Questions | The visitor's own words in the question, a fact in the answer | "We track tasks in a spreadsheet. What moves over?" |
@@ -37,8 +40,10 @@ used.
 
 | Say | Not |
 |---|---|
-| photoshoot | shoot (on its own), job |
+| photo job ([ADR 0014](adr/0014-job-not-photoshoot.md)): at the first mention on a page, and where nothing else says photography (search titles and descriptions, share text, a part page headline), with examples such as picture day or team photos nearby | job, shoot (on its own), event |
+| job: after the first mention, inside pictures and in the menu | |
 | part | module |
+| client forms | rosters, when the line covers every job |
 | clients | |
 | ScheduLink, capital L | Schedulink |
 | schools, sports leagues and dance studios | only where who ScheduLink is for is the point |

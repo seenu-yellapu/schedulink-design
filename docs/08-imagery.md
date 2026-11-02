@@ -5,7 +5,7 @@ Product visuals come in two kinds. Both use the soft-rimmed frame, illustrated f
 
 ## The hero illustration
 
-A studio's day: the date in the rim's top strip, three columns (Photoshoots, Tasks, Photographers) with soft tile
+A studio's day: the date in the rim's top strip, three columns (Jobs, Tasks, Photographers) with soft tile
 headers, two detailed rows then simplified rows, and a short fade. See
 [ProductIllustration](../components/ProductIllustration/README.md) and
 [IllustrationParts](../components/IllustrationParts/README.md).
@@ -15,7 +15,7 @@ headers, two detailed rows then simplified rows, and a short fade. See
 Almost-true, simplified views of real ScheduLink screens: every section, field and status shown exists in the app,
 statuses are shown by icon rather than words, and nothing is invented. Every tab picture is the same size (760 by 470 on
 desktop, 560 tall with a fade on phones) and shares one layout: a header, four labelled details, two columns of
-sections. Each must show the linked pieces on screen, such as a photoshoot with its tasks, photographers and emails. See
+sections. Each must show the linked pieces on screen, such as a job with its tasks, photographers and emails. See
 [TabIllustration](../components/TabIllustration/README.md).
 
 ## Story pictures

@@ -25,3 +25,4 @@ A carried-over ADR holds only its Status and Decision: the Context, Consequences
 | [0011](0011-fragments-without-shadow.md) | Screenshot fragments have no shadow | Accepted (2026-10-20) |
 | [0012](0012-tab-pictures-without-shadow.md) | Tab pictures have no shadow | Accepted (2026-10-20) |
 | [0013](0013-all-text-at-seven-to-one.md) | All text at 7:1, body text at 18px | Accepted (2026-10-29) |
+| [0014](0014-job-not-photoshoot.md) | Job, not photoshoot | Proposed (2026-11-02) |

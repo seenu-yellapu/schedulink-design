@@ -57,7 +57,7 @@ Seenu answered every call on 2026-10-20, and calls 31 to 45 on 2026-10-29.
 | 34 | Principles | Eight, with the tie-break order in [01 Principles](01-principles.md) |
 | 35 | Phone gap between sections | 32px on every page, the homepage included |
 | 36 | One-column breakpoints | 1000px on the homepage, 900px elsewhere |
-| 37 | Photoshoot management block tags | 01 · Booked, 02 · Staffed, 03 · Tracked |
+| 37 | Job management block tags | 01 · Booked, 02 · Staffed, 03 · Tracked |
 | 38 | Client relationships questions | "How do our clients get in?" swapped for a question on moving over |
 | 39 | Hover on buttons and tabs | Colour only, no lift |
 | 40 | Patterns rules | No pop-ups or chat bubbles over the page; no tiers or "contact sales"; no phone or job title fields |
