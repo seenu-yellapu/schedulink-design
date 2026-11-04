@@ -19,4 +19,4 @@ body{margin:0;background:var(--page-grey);color:var(--ink);font-family:var(--fon
 .ap-foot{margin:24px 0 0;font-size:13px;color:var(--ink-muted)}
 .ap-2{display:grid;grid-template-columns:1fr 1fr;gap:0 24px}
 .ap-sec{margin:0 0 12px;font-size:12px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--brand-strong);font-family:var(--font-mono)}
-@media (max-width:640px){.ap{padding:24px 16px}.ap-card{padding:28px 20px}.ap-2{grid-template-columns:1fr}}
+@media (max-width:640px){.ap{padding:24px 16px}.ap-card{padding:28px 20px}.ap-2{grid-template-columns:1fr;gap:12px 0}}
