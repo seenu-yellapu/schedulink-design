@@ -37,7 +37,7 @@ a{color:var(--brand-strong)}a:hover{color:var(--brand-strong)}
 .swf-sub{font-family:var(--font-display);font-weight:600;font-size:40px;letter-spacing:-.03em;line-height:1.1;color:var(--brand-strong);margin-top:4px}
 .swf-l{font-size:17px;line-height:1.5;color:var(--ink-secondary);margin-top:18px}
 @media (max-width:900px){.swf-hero{grid-template-columns:1fr;gap:40px}.swf-big{font-size:68px}}</style>
-</head><body><div class="sl-rail" aria-hidden="true" style="left: 23px"></div><div class="sl-rail" aria-hidden="true" style="right: 23px"></div><header style="position: sticky; top: 0; z-index: 40; background: var(--surface); border-bottom: 1px solid var(--line)">
+<style id="r4">.lbl-short{display:none}@media (max-width:760px){.sl-ctas{gap:8px!important;flex-wrap:wrap}.sl-ctas .sl-btn{padding:0 14px!important}.lbl-long{display:none}.lbl-short{display:inline}}.sl-close-h{margin-bottom:36px!important}</style></head><body><div class="sl-rail" aria-hidden="true" style="left: 23px"></div><div class="sl-rail" aria-hidden="true" style="right: 23px"></div><header style="position: sticky; top: 0; z-index: 40; background: var(--surface); border-bottom: 1px solid var(--line)">
 <div class="sl-wrap" style="height: 80px; display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap">
 <div style="display: flex; align-items: center; gap: 48px; flex-wrap: wrap">
 <a href="../" aria-label="ScheduLink home" style="display: flex"><img src="../assets/wordmark-blue.png" alt="ScheduLink" style="width: 150px; height: auto; display: block"></a>
@@ -115,13 +115,12 @@ a{color:var(--brand-strong)}a:hover{color:var(--brand-strong)}
 <section style="padding: 0">
 <div class="sl-wrap">
 <div class="sl-card" style="padding: 80px 64px; text-align: center">
-<h2 class="sl-h2 type-display-s" style="margin-left: auto; margin-right: auto">Start the move with a demo.</h2>
-<p class="sl-lead" style="margin: 0 auto 40px; max-width: 620px">We&#39;ll walk you through it with your own clients and photographers in mind.</p>
-<div style="display: flex; gap: 14px; justify-content: center; flex-wrap: wrap">
+<h2 class="sl-h2 sl-close-h type-display-s" style="margin-left: auto; margin-right: auto">Start the move with a demo.</h2>
+<div class="sl-ctas" style="display: flex; gap: 14px; justify-content: center; flex-wrap: wrap">
 <a href="../book-a-demo/" class="sl-btn sl-btn-p">Schedule a demo</a>
+<a href="../app-screens/create-account/" class="sl-btn sl-btn-s"><span class="lbl-long">Start a free 30-day trial</span><span class="lbl-short">Start free trial</span></a>
 </div>
-<p style="margin: 16px 0 0; font-size: 13px; color: var(--ink-muted)">Prefer to try it yourself? <a href="../app-screens/create-account/" style="color: inherit; font-weight: 600">Start a free 30-day trial</a></p>
-<p style="margin: 40px 0 0; font-size: 14px; color: var(--ink-secondary)">Met us at a show? We'll pick up where we left off.</p>
+
 </div>
 </div>
 </section><div class="sep2" aria-hidden="true"><i style="left: 17px"></i><i style="right: 17px"></i></div>
@@ -138,4 +137,4 @@ a{color:var(--brand-strong)}a:hover{color:var(--brand-strong)}
 <span>ScheduLink · 353 West 7th Avenue, Vancouver, BC V5Y 1M2, Canada</span><span>LinkedIn · Instagram · Facebook</span><span>© 2026 ScheduLink</span>
 </div>
 </div></div>
-</footer><script>document.addEventListener("click",function(e){var d=e.target.closest(".sl-dd");document.querySelectorAll(".sl-dd.open").forEach(function(x){if(x!==d)x.classList.remove("open")});if(d&&e.target.closest(".sl-ddb")){d.classList.toggle("open");d.querySelector(".sl-ddb").setAttribute("aria-expanded",d.classList.contains("open"))}});</script></body></html>
+</footer><script>document.addEventListener("click",function(e){var d=e.target.closest(".sl-dd");document.querySelectorAll(".sl-dd.open").forEach(function(x){if(x!==d)x.classList.remove("open")});if(d&&e.target.closest(".sl-ddb")){d.classList.toggle("open");d.querySelector(".sl-ddb").setAttribute("aria-expanded",d.classList.contains("open"))}});</script><script id="r4js">(function(){function go(){var hdr=document.querySelector('header a.sl-btn-p');var cs=document.querySelectorAll('.sl-ctas');if(!hdr||!cs.length||!('IntersectionObserver' in window))return;hdr.style.transition='opacity .2s ease,visibility .2s ease';var mq=window.matchMedia('(max-width:760px)');var vis=new Map();var io=new IntersectionObserver(function(es){es.forEach(function(e){vis.set(e.target,e.isIntersecting)});var any=false;vis.forEach(function(v){if(v)any=true});var h=mq.matches&&any;hdr.style.opacity=h?'0':'';hdr.style.visibility=h?'hidden':'';},{rootMargin:'-64px 0px 0px 0px'});cs.forEach(function(c){io.observe(c)});}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',go);else go();})();</script></body></html>
