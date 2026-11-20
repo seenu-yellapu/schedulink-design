@@ -1,0 +1,19 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Check your email | ScheduLink</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="../../../favicon.ico" sizes="any">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet"><link rel="stylesheet" href="../../../assets/schedulink.css"><link rel="stylesheet" href="../../_shared.css">
+</head><body>
+<main class="ap">
+<a class="ap-logo" href="https://schedulink.io/" aria-label="ScheduLink"><img src="../../../assets/wordmark-blue.png" alt="ScheduLink"></a>
+<div class="ap-card" style="max-width:440px">
+<div class="ap-mail" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 6.5l8.5 6 8.5-6"/></svg></div>
+<h1 class="ap-h1">Check your email.</h1>
+<p class="ap-lead">If there's a ScheduLink account for <strong style="color:var(--ink)">alex@cedarparkstudio.com</strong>, we've sent it a link to set a new password.</p>
+<button class="ap-btn ap-btn2" id="resend" type="button" disabled>Send the link again</button>
+<p class="ap-note" id="wait">You can send it again in 60 seconds.</p>
+<p class="ap-alt"><a href="../../login/">Back to log in</a></p>
+</div>
+<p class="ap-foot">© 2026 ScheduLink</p>
+</main>
+<script>(function(){var b=document.getElementById("resend"),n=document.getElementById("wait"),s=60;function t(){if(s>0){b.disabled=true;n.textContent="You can send it again in "+s+" seconds.";s--;setTimeout(t,1000)}else{b.disabled=false;n.textContent="Didn't get it? Check your spam folder, or send it again."}}b.addEventListener("click",function(){s=60;t()});t()})();</script>
+</body></html>

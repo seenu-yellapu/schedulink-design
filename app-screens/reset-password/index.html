@@ -5,14 +5,17 @@
 </head><body>
 <main class="ap">
 <a class="ap-logo" href="https://schedulink.io/" aria-label="ScheduLink"><img src="../../assets/wordmark-blue.png" alt="ScheduLink"></a>
-<form class="ap-card" style="max-width:440px" action="#" onsubmit="return false">
+<form class="ap-card" style="max-width:440px" action="#" onsubmit="location.href='done/';return false">
 <h1 class="ap-h1">Choose a new password.</h1>
-<p class="ap-lead">At least 8 characters, with a capital letter and a number.</p>
-<label class="ap-f"><span class="ap-l">New password</span><input class="ap-i" type="password" autocomplete="new-password" required></label>
-<label class="ap-f"><span class="ap-l">Confirm new password</span><input class="ap-i" type="password" autocomplete="new-password" required></label>
-<button class="ap-btn" type="submit" style="margin-top:6px">Save new password</button>
+<p class="ap-lead">It needs all four of these.</p>
+<label class="ap-f"><span class="ap-l">New password</span><input class="ap-i" id="p1" type="password" autocomplete="new-password" required></label>
+<ul class="ap-rules" id="rules" aria-live="polite"><li data-r="len">8 or more characters</li><li data-r="low">A lowercase letter</li><li data-r="up">A capital letter</li><li data-r="num">A number</li></ul>
+<label class="ap-f"><span class="ap-l">Confirm new password</span><input class="ap-i" id="p2" type="password" autocomplete="new-password" required></label>
+<ul class="ap-rules"><li data-r="match" id="match">Both passwords match</li></ul>
+<button class="ap-btn" id="save" type="submit" style="margin-top:6px" disabled>Save new password</button>
 <p class="ap-alt"><a href="../login/">Back to log in</a></p>
 </form>
 <p class="ap-foot">© 2026 ScheduLink</p>
 </main>
+<script>(function(){var a=document.getElementById("p1"),b=document.getElementById("p2"),btn=document.getElementById("save");function u(){var v=a.value,r={len:v.length>=8,low:/[a-z]/.test(v),up:/[A-Z]/.test(v),num:/[0-9]/.test(v),match:v.length>0&&v===b.value};document.querySelectorAll("[data-r]").forEach(function(li){li.classList.toggle("ok",r[li.dataset.r])});btn.disabled=!Object.values(r).every(Boolean)}a.addEventListener("input",u);b.addEventListener("input",u)})();</script>
 </body></html>
